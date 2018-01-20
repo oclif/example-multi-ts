@@ -11,7 +11,7 @@
     "cli-ux": "^3.1.3"
   },
   "devDependencies": {
-    "@dxcli/dev-semantic-release": "^0.0.3",
+    "@dxcli/dev-semantic-release": "^0.1.0",
     "@dxcli/dev-test": "^0.5.1",
     "@dxcli/dev-tslint": "^0.0.15",
     "@types/node": "^9.3.0",
