@@ -102,19 +102,18 @@
   dependencies:
     find-up "^2.1.0"
 
-"@dxcli/command@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@dxcli/command/-/command-0.1.13.tgz#b4dec2e629076c2b50f4cf43c9324dd6ccb98382"
+"@dxcli/command@^0.1.13", "@dxcli/command@^0.1.14":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@dxcli/command/-/command-0.1.15.tgz#872e6f186f09f074a2195ec3dd475d8a4947a611"
   dependencies:
-    "@dxcli/config" "^0.1.20"
-    "@dxcli/parser" "^0.0.3"
-    "@dxcli/screen" "^0.0.1"
-    cli-ux "^3.1.3"
+    "@dxcli/config" "^0.1.24"
+    "@dxcli/parser" "^0.0.4"
+    cli-ux "^3.1.5"
     debug "^3.1.0"
 
-"@dxcli/config@^0.1.20", "@dxcli/config@^0.1.22", "@dxcli/config@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.23.tgz#ac15c08276e3ea54cd9a1a76a11e5d1b4319a08d"
+"@dxcli/config@^0.1.22", "@dxcli/config@^0.1.23", "@dxcli/config@^0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.24.tgz#fc6d14f7c91b742bf3d0ca7c2974565a959471ae"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -160,23 +159,23 @@
     tslint "^5.9.1"
     tslint-xo "^0.5.0"
 
-"@dxcli/engine@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.5.tgz#7d576b0d15cd65a4f57035af2bead7c0c069f0c2"
+"@dxcli/engine@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.6.tgz#c0384b644d31306ba6d43430f9d3684f24a7f3ff"
   dependencies:
     "@dxcli/command" "^0.1.13"
-    "@dxcli/config" "^0.1.20"
+    "@dxcli/config" "^0.1.23"
     "@dxcli/loader" "^0.1.4"
-    cli-ux "^3.1.3"
+    cli-ux "^3.1.5"
     debug "^3.1.0"
 
 "@dxcli/loader@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.1.4.tgz#ac8e3e02574f191158beb9c7f1661229ebe52910"
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.1.5.tgz#c910b7a064f3181e4f712ab694667b86f8c3b5b5"
   dependencies:
-    "@dxcli/config" "^0.1.20"
+    "@dxcli/config" "^0.1.23"
     "@dxcli/manifest-file" "^0.0.3"
-    cli-ux "^3.1.3"
+    cli-ux "^3.1.5"
     debug "^3.1.0"
     globby "^7.1.1"
     lodash "^4.17.4"
@@ -191,17 +190,13 @@
     lodash "^4.17.4"
     rwlockfile "^2.0.21"
 
-"@dxcli/parser@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@dxcli/parser/-/parser-0.0.3.tgz#be08ac4b3809685b3351978ae702b1e14cae47fd"
+"@dxcli/parser@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@dxcli/parser/-/parser-0.0.4.tgz#dfef02cd90f252f0b772f99b13a1e13255ff9eda"
   dependencies:
-    "@dxcli/screen" "^0.0.0"
+    "@dxcli/screen" "^0.0.1"
     chalk "^2.3.0"
     lodash "^4.17.4"
-
-"@dxcli/screen@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@dxcli/screen/-/screen-0.0.0.tgz#a85f69bfb00d3961656bad5d7b12f8e603c7ce09"
 
 "@dxcli/screen@^0.0.1":
   version "0.0.1"
@@ -907,7 +902,7 @@ cli-table@^0.3.1:
   dependencies:
     colors "1.0.3"
 
-cli-ux@^3.1.3, cli-ux@^3.1.5:
+cli-ux@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.1.5.tgz#c6d3ed628a54067ad2084dd465ea015ca26488c9"
   dependencies:
