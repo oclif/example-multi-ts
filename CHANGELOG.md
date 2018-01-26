@@ -1,3 +1,11 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/dxcli/example-multi-cli-typescript/compare/e19e31c0819af64349408f65daeabf92e1c4ffda...v0.1.2) (2018-01-26)
+
+
+### Bug Fixes
+
+* ran generator ([b67b868](https://github.com/dxcli/example-multi-cli-typescript/commit/b67b868))
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/dxcli/example-multi-cli-typescript/compare/abd209cfda510ce001557cd5617356c125b2b4c3...v0.1.1) (2018-01-25)
 
