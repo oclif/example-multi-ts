@@ -1,9 +1,9 @@
 import {expect, test} from '@dxcli/dev-test'
 
 describe('hooks', () => {
-  test()
+  test
   .stdout()
   .hook('init', {id: 'mycommand'})
-  .run(output => expect(output.stdout).to.contain('example hook running mycommand'))
-  .end('shows a message')
+  .do(output => expect(output.stdout).to.contain('example hook running mycommand'))
+  .it('shows a message')
 })

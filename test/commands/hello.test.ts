@@ -1,17 +1,17 @@
 import {expect, test} from '@dxcli/dev-test'
 
 describe('command', () => {
-  test()
+  test
   .stdout()
   .command(['hello'])
-  .end('says hello', output => {
+  .it('says hello', output => {
     expect(output.stdout).to.contain('hello world!')
   })
 
-  test()
+  test
   .stdout()
   .command(['hello', '--name', 'jeff'])
-  .end('says hello jeff', output => {
+  .it('says hello jeff', output => {
     expect(output.stdout).to.contain('hello jeff!')
   })
 })
