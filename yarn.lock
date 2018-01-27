@@ -148,11 +148,11 @@
     semantic-release "^12.2.5"
     shelljs "^0.8.1"
 
-"@dxcli/dev-test@^0.9.11":
-  version "0.9.11"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.9.11.tgz#86330132cb149fb825538498082dd581b81d14f7"
+"@dxcli/dev-test@^0.9.12":
+  version "0.9.12"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.9.12.tgz#a944edef971a6a9a22974936854e6c38edcdedc7"
   dependencies:
-    fancy-test "^0.5.1"
+    fancy-test "^0.5.5"
     lodash "^4.17.4"
 
 "@dxcli/dev-tslint@^0.0.17":
@@ -1751,9 +1751,9 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
-fancy-test@^0.5.1:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-0.5.4.tgz#1c12e5b6c0f2bf94bc1c041dfabea0f39dc4577d"
+fancy-test@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-0.5.5.tgz#e87b189a853af335c76bbcb98704db5ec8380c27"
   dependencies:
     lodash "^4.17.4"
     stdout-stderr "^0.1.4"
