@@ -1,3 +1,11 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/dxcli/example-multi-cli-typescript/compare/d529472af517759ee756118d22668ee215466537...v0.1.6) (2018-01-27)
+
+
+### Bug Fixes
+
+* create-dxcli 0.25.2 ([1b8148a](https://github.com/dxcli/example-multi-cli-typescript/commit/1b8148a))
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/dxcli/example-multi-cli-typescript/compare/f6ec5d74537a9258fb322236af6abdbbe4fc1457...v0.1.5) (2018-01-27)
 
