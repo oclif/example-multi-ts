@@ -26,7 +26,7 @@ const scripts = {
 
 if (process.env.CI) {
   if (process.env.CIRCLECI) {
-    scripts.mocha.script = series(mkdirp('reports'), scripts.mocha.script)
+    scripts.test.script = series(mkdirp('reports'), scripts.test.script)
     // add mocha junit reporter
     scripts.mocha.script = crossEnv(`MOCHA_FILE=reports/mocha.xml ${scripts.mocha.script} --reporter mocha-junit-reporter`)
     // add eslint reporter
