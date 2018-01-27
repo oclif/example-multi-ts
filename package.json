@@ -5,14 +5,14 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-multi-cli-typescript/issues",
   "dependencies": {
-    "@dxcli/command": "^0.1.18",
-    "@dxcli/engine": "^0.1.11",
+    "@dxcli/command": "^0.1.19",
+    "@dxcli/engine": "^0.1.12",
     "@dxcli/version": "^0.1.5",
     "cli-ux": "^3.2.1"
   },
   "devDependencies": {
     "@dxcli/config": "^0.1.26",
-    "@dxcli/dev": "^2.0.2",
+    "@dxcli/dev": "^2.0.3",
     "@dxcli/dev-test": "^0.9.11",
     "husky": "^0.14.3",
     "nps-utils": "^1.5.0"
