@@ -1,3 +1,13 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/dxcli/example-multi-cli-typescript/compare/v0.1.2...v0.1.4) (2018-01-27)
+
+
+### Bug Fixes
+
+* create-dxcli 0.24.2 ([ee8896c](https://github.com/dxcli/example-multi-cli-typescript/commit/ee8896c))
+* testing new package-scripts ([f6ec5d7](https://github.com/dxcli/example-multi-cli-typescript/commit/f6ec5d7))
+* testing new package-scripts ([e3873db](https://github.com/dxcli/example-multi-cli-typescript/commit/e3873db))
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/dxcli/example-multi-cli-typescript/compare/e19e31c0819af64349408f65daeabf92e1c4ffda...v0.1.2) (2018-01-26)
 
