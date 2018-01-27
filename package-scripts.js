@@ -13,6 +13,8 @@ const script = (script, description) => description ? {script, description} : {s
 const hidden = script => ({script, hiddenFromHelp: true})
 const unixOrWindows = (unix, windows) => series(ifNotWindows(unix), ifWindows(windows))
 
+const lint = ['lint.eslint', 'lint.commitlint', 'lint.tsc', 'lint.tslint']
+
 setColors(['dim'])
 
 let ciTests = [
@@ -23,17 +25,16 @@ let ciTests = [
 
 module.exports = {
   scripts: {
-    build: 'rm -rf lib && tsc',
     lint: {
-      default: concurrent.nps('lint.eslint', 'lint.commitlint', 'lint.tsc', 'lint.tslint'),
+      default: concurrent.nps(...lint),
       eslint: script('eslint .', 'lint js files'),
       commitlint: script('commitlint --from origin/master', 'ensure that commits are in valid conventional-changelog format'),
       tsc: script('tsc -p test --noEmit', 'syntax check with tsc'),
       tslint: script('tslint -p test', 'lint ts files'),
     },
     test: {
-      default: script(concurrent.nps('lint', 'test.mocha'), 'lint and run all tests'),
-      series: script(series.nps('lint', 'test.mocha'), 'lint and run all tests in series'),
+      default: script(concurrent.nps(...lint), 'lint and run all tests'),
+      series: script(series.nps(...lint), 'lint and run all tests in series'),
       mocha: {
         default: script('mocha --forbid-only "test/**/*.test.ts"', 'run all mocha tests'),
         coverage: {

@@ -3,44 +3,22 @@
   "description": "example multi-command CLI built with typescript",
   "version": "0.1.2",
   "author": "Jeff Dickey @jdxcode",
-  "bugs": "https://github.com/jdxcode/example-multi-cli-typescript/issues",
+  "bugs": "https://github.com/dxcli/example-multi-cli-typescript/issues",
   "dependencies": {
-    "@dxcli/command": "^0.1.15",
-    "@dxcli/engine": "^0.1.7",
+    "@dxcli/command": "^0.1.18",
+    "@dxcli/engine": "^0.1.11",
     "@dxcli/version": "^0.1.5",
-    "cli-ux": "^3.1.5"
+    "cli-ux": "^3.2.1"
   },
   "devDependencies": {
-    "@dxcli/config": "^0.1.24",
-    "@dxcli/dev-nyc-config": "^0.0.3",
-    "@dxcli/dev-semantic-release": "^0.1.0",
-    "@dxcli/dev-test": "^0.9.4",
-    "@dxcli/dev-tslint": "^0.0.15",
-    "@types/ansi-styles": "^2.0.30",
-    "@types/chai": "^4.1.2",
-    "@types/lodash": "^4.14.96",
-    "@types/mocha": "^2.2.47",
-    "@types/nock": "^9.1.2",
-    "@types/node": "^9.3.0",
-    "@types/read-pkg": "^3.0.0",
-    "@types/strip-ansi": "^3.0.0",
-    "chai": "^4.1.2",
-    "eslint": "^4.16.0",
-    "eslint-config-dxcli": "^1.1.4",
+    "@dxcli/config": "^0.1.26",
+    "@dxcli/dev": "^2.0.2",
+    "@dxcli/dev-test": "^0.9.11",
     "husky": "^0.14.3",
-    "mocha": "^5.0.0",
-    "mocha-junit-reporter": "^1.17.0",
-    "nps": "^5.7.1",
-    "nps-utils": "^1.5.0",
-    "nyc": "^11.4.1",
-    "ts-node": "^4.1.0",
-    "typescript": "^2.6.2"
+    "nps-utils": "^1.5.0"
   },
   "dxcli": {
     "commands": "./lib/commands",
-    "hooks": {
-      "init": "./lib/hooks/init"
-    },
     "plugins": [
       "@dxcli/version"
     ]
@@ -51,7 +29,7 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/jdxcode/example-multi-cli-typescript",
+  "homepage": "https://github.com/dxcli/example-multi-cli-typescript",
   "keywords": [
     "dxcli"
   ],
@@ -60,9 +38,9 @@
   "repository": "dxcli/example-multi-cli-typescript",
   "scripts": {
     "commitmsg": "dxcli-dev-commitmsg",
-    "precommit": "nps lint",
-    "prepare": "nps build",
-    "test": "nps test"
+    "precommit": "nps lint -l warn",
+    "prepare": "rm -rf lib && tsc",
+    "test": "nps test -l warn"
   },
   "types": "lib/index.d.ts"
 }
