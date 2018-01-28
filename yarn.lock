@@ -112,9 +112,9 @@
     debug "^3.1.0"
     tslib "^1.9.0"
 
-"@dxcli/config@^0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.26.tgz#36458424cb8cc9c1499659bbff3676fa7b0292da"
+"@dxcli/config@^0.1.26", "@dxcli/config@^0.1.27":
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.27.tgz#639d82e555d2a09cffeff065324279988df02e1f"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -162,12 +162,11 @@
     tslint "^5.9.1"
     tslint-xo "^0.5.0"
 
-"@dxcli/dev@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.5.tgz#349b723c8cafb9395733cd0508523ce3404a0724"
+"@dxcli/dev@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.6.tgz#5e8064afbb85d5f553bc86436f879311743ccb6a"
   dependencies:
     "@dxcli/dev-nyc-config" "^0.0.3"
-    "@dxcli/dev-semantic-release" "^0.2.0"
     "@dxcli/dev-tslint" "^0.0.17"
     "@types/ansi-styles" "^2.0.30"
     "@types/chai" "^4.1.2"
@@ -195,12 +194,12 @@
     debug "^3.1.0"
 
 "@dxcli/loader@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.2.5.tgz#a7180fe54c3796f4c03758871bb896e77a2a0945"
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.2.6.tgz#cee8b5ceb99135ecd3c821d78f9ab9b388de90f3"
   dependencies:
     "@dxcli/config" "^0.1.26"
     "@dxcli/manifest-file" "^0.0.4"
-    cli-ux "^3.2.0"
+    cli-ux "^3.2.2"
     debug "^3.1.0"
     globby "^7.1.1"
     lodash "^4.17.4"
@@ -959,7 +958,7 @@ cli-table@^0.3.1:
   dependencies:
     colors "1.0.3"
 
-cli-ux@^3.2.0, cli-ux@^3.2.1, cli-ux@^3.2.2:
+cli-ux@^3.2.1, cli-ux@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.2.2.tgz#7836bdca210cd8d70f6d26adb7c2fb5b3e4842fc"
   dependencies:
