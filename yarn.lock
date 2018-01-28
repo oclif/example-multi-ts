@@ -194,9 +194,9 @@
     execa "^0.9.0"
     semantic-release "^12.2.5"
 
-"@dxcli/test@^0.9.16":
-  version "0.9.16"
-  resolved "https://registry.yarnpkg.com/@dxcli/test/-/test-0.9.16.tgz#831a34adcdb088169ff096714ce98155a3364f01"
+"@dxcli/test@^0.9.17":
+  version "0.9.17"
+  resolved "https://registry.yarnpkg.com/@dxcli/test/-/test-0.9.17.tgz#62cd039b8d15e7dcfca30dd5d8cead5d36b042ee"
   dependencies:
     fancy-test "^0.6.3"
     lodash "^4.17.4"
