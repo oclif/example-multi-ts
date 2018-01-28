@@ -6,13 +6,13 @@
   "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
     "@dxcli/command": "^0.1.23",
-    "@dxcli/config": "^0.1.27",
-    "@dxcli/engine": "^0.1.12",
+    "@dxcli/config": "^0.1.28",
+    "@dxcli/engine": "^0.1.13",
     "@dxcli/version": "^0.1.7",
     "cli-ux": "^3.2.2"
   },
   "devDependencies": {
-    "@dxcli/dev": "^2.0.12",
+    "@dxcli/dev": "^2.0.13",
     "@dxcli/semantic-release": "^0.3.3",
     "@dxcli/test": "^0.9.16",
     "chai": "^4.1.2",
