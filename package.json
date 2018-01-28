@@ -5,17 +5,17 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
-    "@dxcli/command": "^0.1.22",
+    "@dxcli/command": "^0.1.23",
     "@dxcli/config": "^0.1.27",
     "@dxcli/engine": "^0.1.12",
     "@dxcli/parser": "^0.0.5",
-    "@dxcli/version": "^0.1.6",
+    "@dxcli/version": "^0.1.7",
     "cli-ux": "^3.2.2"
   },
   "devDependencies": {
     "@dxcli/dev": "^2.0.12",
-    "@dxcli/dev-test": "^0.9.12",
-    "@dxcli/semantic-release": "^0.3.0",
+    "@dxcli/semantic-release": "^0.3.3",
+    "@dxcli/test": "^0.9.16",
     "chai": "^4.1.2",
     "eslint": "^4.16.0",
     "husky": "^0.14.3",
