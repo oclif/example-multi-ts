@@ -102,27 +102,29 @@
   dependencies:
     find-up "^2.1.0"
 
-"@dxcli/command@^0.1.22", "@dxcli/command@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@dxcli/command/-/command-0.1.23.tgz#93a77b455ca1eddafc58e7966a3127dec5be420b"
+"@dxcli/command@^0.2.2", "@dxcli/command@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@dxcli/command/-/command-0.2.4.tgz#697dd134d60b409e2a42b86260835e78967d10de"
   dependencies:
     "@dxcli/parser" "^0.0.5"
     debug "^3.1.0"
+    lodash "^4.17.4"
     tslib "^1.9.0"
 
-"@dxcli/config@^0.1.27", "@dxcli/config@^0.1.28":
-  version "0.1.28"
-  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.28.tgz#76131f25b1725eba3ebf9609d4552cd5372147b8"
+"@dxcli/config@^0.1.33":
+  version "0.1.33"
+  resolved "https://registry.yarnpkg.com/@dxcli/config/-/config-0.1.33.tgz#b29c059c2f5b8b764f00ccf42b2ea7aaa4f962e4"
   dependencies:
+    cli-ux "^3.3.8"
     debug "^3.1.0"
     fs-extra "^5.0.0"
     load-json-file "^4.0.0"
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@dxcli/dev@^2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.13.tgz#b564d56df2bea15ef9a6943ad2903a1116a92765"
+"@dxcli/dev@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.15.tgz#2984dabb5e8069515ed328cb59d920a00bee7483"
   dependencies:
     "@dxcli/nyc-config" "^0.0.4"
     "@types/ansi-styles" "^2.0.30"
@@ -135,28 +137,30 @@
     "@types/read-pkg" "^3.0.0"
     "@types/strip-ansi" "^3.0.0"
     "@types/supports-color" "^3.1.0"
-    eslint-config-dxcli "^1.1.7"
+    eslint-config-dxcli "^1.2.0"
     nyc "^11.4.1"
 
-"@dxcli/engine@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.13.tgz#46bc63407b12cedfa8a31b92b1314c25dcf37980"
+"@dxcli/engine@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.17.tgz#77f067fd8ff187e12da16d06ac251e4b75cf23cf"
   dependencies:
-    "@dxcli/loader" "^0.2.9"
+    "@dxcli/loader" "^0.2.12"
+    cli-ux "^3.3.8"
     debug "^3.1.0"
 
-"@dxcli/loader@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.2.9.tgz#4022b2b790650efb3015961c892aa081beecb838"
+"@dxcli/loader@^0.2.12":
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/@dxcli/loader/-/loader-0.2.14.tgz#147b8353691c3dfa5445ca66a6517a583ca76fbf"
   dependencies:
-    "@dxcli/manifest-file" "^0.0.4"
+    "@dxcli/manifest-file" "^0.1.0"
+    cli-ux "^3.3.8"
     debug "^3.1.0"
     globby "^7.1.1"
     lodash "^4.17.4"
 
-"@dxcli/manifest-file@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@dxcli/manifest-file/-/manifest-file-0.0.4.tgz#cc5f250f9baf59083ad9cc4693af61f08cc0daf2"
+"@dxcli/manifest-file@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@dxcli/manifest-file/-/manifest-file-0.1.0.tgz#acfcc9708936624900e3dcee6b81a086049c2d7e"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -194,21 +198,19 @@
     execa "^0.9.0"
     semantic-release "^12.2.5"
 
-"@dxcli/test@^0.9.17":
-  version "0.9.17"
-  resolved "https://registry.yarnpkg.com/@dxcli/test/-/test-0.9.17.tgz#62cd039b8d15e7dcfca30dd5d8cead5d36b042ee"
+"@dxcli/test@^0.9.18":
+  version "0.9.18"
+  resolved "https://registry.yarnpkg.com/@dxcli/test/-/test-0.9.18.tgz#41c796f71ee2427ac15facafa09625789e62f074"
   dependencies:
-    fancy-test "^0.6.3"
+    fancy-test "^0.6.4"
     lodash "^4.17.4"
 
-"@dxcli/version@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@dxcli/version/-/version-0.1.7.tgz#68a7d9134d3c03b65305fe5ed4de075702429d2e"
+"@dxcli/version@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@dxcli/version/-/version-0.1.12.tgz#1c2093ee3607170dbe61c19939aaf223fa8fae29"
   dependencies:
-    "@dxcli/command" "^0.1.22"
-    "@dxcli/config" "^0.1.27"
-    "@dxcli/parser" "^0.0.5"
-    cli-ux "^3.2.2"
+    "@dxcli/command" "^0.2.2"
+    cli-ux "^3.3.8"
 
 "@heroku/linewrap@^1.0.0":
   version "1.0.0"
@@ -223,8 +225,8 @@
     rimraf "^2.5.2"
 
 "@octokit/rest@^14.0.3":
-  version "14.0.6"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-14.0.6.tgz#92d18601ecc346b0349ad4a3219ccc5bc00e6254"
+  version "14.0.7"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-14.0.7.tgz#fef887a79c59c9add0ce66491ab8a990f2462681"
   dependencies:
     before-after-hook "^1.1.0"
     debug "^3.1.0"
@@ -894,7 +896,7 @@ clean-regexp@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-clean-stack@^1.0.0:
+clean-stack@^1.0.0, clean-stack@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-1.3.0.tgz#9e821501ae979986c46b1d66d2d432db2fd4ae31"
 
@@ -910,16 +912,19 @@ cli-table@^0.3.1:
   dependencies:
     colors "1.0.3"
 
-cli-ux@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.2.2.tgz#7836bdca210cd8d70f6d26adb7c2fb5b3e4842fc"
+cli-ux@^3.3.8:
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.3.8.tgz#5df2e8731de5531aaa415dff96a4130f29aaeb01"
   dependencies:
     "@dxcli/screen" "^0.0.1"
     "@heroku/linewrap" "^1.0.0"
     ansi-styles "^3.2.0"
     cardinal "^1.0.0"
     chalk "^2.3.0"
+    clean-stack "^1.3.0"
+    extract-stack "^1.0.0"
     fs-extra "^5.0.0"
+    indent-string "^3.2.0"
     lodash "^4.17.4"
     node-notifier "^5.2.1"
     password-prompt "^1.0.4"
@@ -1384,9 +1389,9 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-dxcli@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.1.7.tgz#c3cd73bfe21259fd5a77de04199f49f1f89ec5a4"
+eslint-config-dxcli@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.2.1.tgz#8e65ee698fa77e9485462c788fa466edffccc13d"
   dependencies:
     eslint-config-xo-space "^0.17.0"
     eslint-plugin-node "^5.2.1"
@@ -1616,6 +1621,10 @@ extglob@^2.0.2:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+extract-stack@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/extract-stack/-/extract-stack-1.0.0.tgz#b97acaf9441eea2332529624b732fc5a1c8165fa"
+
 extsprintf@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
@@ -1624,9 +1633,9 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
-fancy-test@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-0.6.3.tgz#cbcdb3bd2e969245e9885fda9d23c5874ef199e3"
+fancy-test@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-0.6.4.tgz#3104b64348f93983827beec614cc89c084a8118c"
   dependencies:
     lodash "^4.17.4"
     stdout-stderr "^0.1.4"
@@ -2093,7 +2102,7 @@ indent-string@^2.1.0:
   dependencies:
     repeating "^2.0.0"
 
-indent-string@^3.0.0:
+indent-string@^3.0.0, indent-string@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
 

@@ -1,15 +1,17 @@
 const {expect, test} = require('@dxcli/test')
 
-describe('command', () => {
+const command = 'hello'
+
+describe(command, () => {
   test
     .stdout()
-    .command(['hello'])
-    .do(output => expect(output.stdout).to.contain('hello world!'))
-    .it('says hello')
+    .command([command])
+    .do(ctx => expect(ctx.stdout).to.equal('hello world from hello!\n'))
+    .it()
 
   test
     .stdout()
-    .command(['hello', '--name', 'jeff'])
-    .do(output => expect(output.stdout).to.contain('hello jeff!'))
-    .it('says hello jeff')
+    .command([command, '--name', 'jeff'])
+    .do(ctx => expect(ctx.stdout).to.equal('hello jeff from hello!\n'))
+    .it()
 })
