@@ -1,30 +1,30 @@
 {
-  "name": "@dxcli/example-multi-cli-typescript",
+  "name": "@dxcli/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
   "version": "0.1.11",
   "author": "Jeff Dickey @jdxcode",
-  "bugs": "https://github.com/dxcli/example-multi-cli-typescript/issues",
+  "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
-    "@dxcli/command": "^0.1.21",
+    "@dxcli/command": "^0.1.22",
+    "@dxcli/config": "^0.1.27",
     "@dxcli/engine": "^0.1.12",
+    "@dxcli/parser": "^0.0.5",
     "@dxcli/version": "^0.1.6",
     "cli-ux": "^3.2.2"
   },
   "devDependencies": {
-    "@dxcli/config": "^0.1.27",
-    "@dxcli/dev": "^2.0.7",
-    "@dxcli/dev-semantic-release": "^0.2.0",
+    "@dxcli/dev": "^2.0.12",
     "@dxcli/dev-test": "^0.9.12",
+    "@dxcli/semantic-release": "^0.2.4",
     "chai": "^4.1.2",
     "eslint": "^4.16.0",
     "husky": "^0.14.3",
     "mocha": "^5.0.0",
     "nps": "^5.7.1",
-    "nps-utils": "^1.5.0",
-    "typescript": "^2.6.2"
+    "nps-utils": "^1.5.0"
   },
   "dxcli": {
-    "commands": "./lib/commands",
+    "commands": "./src/commands",
     "plugins": [
       "@dxcli/version"
     ]
@@ -33,20 +33,18 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/lib"
+    "/src"
   ],
-  "homepage": "https://github.com/dxcli/example-multi-cli-typescript",
+  "homepage": "https://github.com/dxcli/example-multi-ts",
   "keywords": [
     "dxcli"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
-  "repository": "dxcli/example-multi-cli-typescript",
+  "main": "src/index.js",
+  "repository": "dxcli/example-multi-ts",
   "scripts": {
-    "commitmsg": "dxcli-dev-commitmsg",
+    "commitmsg": "dxcli-commitlint",
     "precommit": "nps lint -l warn",
-    "prepare": "rm -rf lib && tsc",
     "test": "nps test -l warn"
-  },
-  "types": "lib/index.d.ts"
+  }
 }
