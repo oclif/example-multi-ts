@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
@@ -16,6 +16,7 @@
     "@commitlint/config-conventional": "^6.0.2",
     "@dxcli/dev": "^2.0.16",
     "@dxcli/nyc-config": "^0.0.4",
+    "@dxcli/semantic-release": "1",
     "@dxcli/test": "^0.9.19",
     "chai": "^4.1.2",
     "eslint": "^4.16.0",
