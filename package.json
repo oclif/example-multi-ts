@@ -12,7 +12,8 @@
     "cli-ux": "^3.3.8"
   },
   "devDependencies": {
-    "@dxcli/dev": "^2.0.15",
+    "@dxcli/dev": "^2.0.16",
+    "@dxcli/nyc-config": "^0.0.4",
     "@dxcli/semantic-release": "^0.3.3",
     "@dxcli/test": "^0.9.18",
     "chai": "^4.1.2",
