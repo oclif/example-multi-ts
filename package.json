@@ -5,17 +5,16 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
-    "@dxcli/command": "^0.2.4",
-    "@dxcli/config": "^0.1.33",
-    "@dxcli/engine": "^0.1.17",
+    "@dxcli/command": "^0.2.5",
+    "@dxcli/config": "^0.1.37",
+    "@dxcli/engine": "^0.1.18",
     "@dxcli/version": "^0.1.12",
     "cli-ux": "^3.3.8"
   },
   "devDependencies": {
     "@dxcli/dev": "^2.0.16",
     "@dxcli/nyc-config": "^0.0.4",
-    "@dxcli/semantic-release": "^0.3.3",
-    "@dxcli/test": "^0.9.18",
+    "@dxcli/test": "^0.9.19",
     "chai": "^4.1.2",
     "eslint": "^4.16.0",
     "husky": "^0.14.3",
@@ -44,7 +43,7 @@
   "main": "src/index.js",
   "repository": "dxcli/example-multi-ts",
   "scripts": {
-    "commitmsg": "dxcli-commitlint",
+    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
     "precommit": "nps lint -l warn",
     "test": "nps test -l warn"
   }
