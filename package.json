@@ -12,6 +12,8 @@
     "cli-ux": "^3.3.8"
   },
   "devDependencies": {
+    "@commitlint/cli": "^6.0.2",
+    "@commitlint/config-conventional": "^6.0.2",
     "@dxcli/dev": "^2.0.16",
     "@dxcli/nyc-config": "^0.0.4",
     "@dxcli/test": "^0.9.19",
