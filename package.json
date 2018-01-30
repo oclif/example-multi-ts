@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-multi-ts/issues",
   "dependencies": {
