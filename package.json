@@ -7,7 +7,7 @@
   "dependencies": {
     "@dxcli/command": "^0.2.6",
     "@dxcli/config": "^0.1.39",
-    "@dxcli/engine": "^0.1.19",
+    "@dxcli/engine": "^0.1.20",
     "@dxcli/version": "^0.1.13",
     "cli-ux": "^3.3.8"
   },

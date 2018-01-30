@@ -122,9 +122,9 @@
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@dxcli/engine@^0.1.19":
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.19.tgz#84a961d4068fa578a5d63bd672582b451b631dfe"
+"@dxcli/engine@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@dxcli/engine/-/engine-0.1.20.tgz#d46977ccfe69daaf4e2762276ca8e61f48ee8295"
   dependencies:
     "@dxcli/manifest-file" "^0.1.0"
     cli-ux "^3.3.8"
