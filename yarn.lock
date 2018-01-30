@@ -143,10 +143,6 @@
     lodash "^4.17.4"
     rwlockfile "^2.0.21"
 
-"@dxcli/nyc-config@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@dxcli/nyc-config/-/nyc-config-0.0.4.tgz#bd60c089aaa6d5da34e415bab6bc527d8c35a210"
-
 "@dxcli/parser@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@dxcli/parser/-/parser-0.0.6.tgz#eece8abbe0cdf33ecd7e817d5df8ad7e934a097c"
