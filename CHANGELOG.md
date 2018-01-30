@@ -1,3 +1,11 @@
+<a name="0.2.6"></a>
+## [0.2.6](https://github.com/dxcli/example-multi-ts/compare/528248c6b47479f77fb49d2f6324d7a368aaee15...v0.2.6) (2018-01-30)
+
+
+### Bug Fixes
+
+* create-dxcli v0.28.9 ([481be97](https://github.com/dxcli/example-multi-ts/commit/481be97))
+
 <a name="0.2.5"></a>
 ## [0.2.5](https://github.com/dxcli/example-multi-ts/compare/61e5cdd6781d5f857f2524324b53a93a32e8e612...v0.2.5) (2018-01-30)
 
