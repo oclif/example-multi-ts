@@ -11,9 +11,9 @@
     lodash "^4.17.4"
     tslib "^1.9.0"
 
-"@anycli/config@^0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@anycli/config/-/config-0.1.41.tgz#b18b9a6da0202254a5e52991206419188aa75766"
+"@anycli/config@^0.2.0", "@anycli/config@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@anycli/config/-/config-0.2.1.tgz#d32fe5036cd194c34ca32ee6bc5e1a4b0ca3c86f"
   dependencies:
     cli-ux "^3.3.8"
     debug "^3.1.0"
@@ -22,26 +22,49 @@
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@anycli/engine@^0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.26.tgz#7c7d06a2527f5b3176eda34e9ef0c0d89d347f40"
+"@anycli/engine@^0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.29.tgz#fcc83ca4b8ef5c0f0f9f01a16579d3ef24cfdce7"
   dependencies:
-    "@anycli/manifest-file" "^0.1.0"
+    "@anycli/manifest-file" "^0.2.0"
     cli-ux "^3.3.9"
     debug "^3.1.0"
     fs-extra "^5.0.0"
     globby "^7.1.1"
     lodash "^4.17.4"
 
-"@anycli/manifest-file@^0.1.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.1.1.tgz#b05f983c4b90e46d9f30ea3f023a409cfdda1232"
+"@anycli/help@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@anycli/help/-/help-0.3.0.tgz#c5d993ceb15aabf56bacc686b63bce5893e728ec"
+  dependencies:
+    "@anycli/command" "^0.2.8"
+    "@anycli/screen" "^0.0.3"
+    chalk "^2.3.0"
+    cli-ux "^3.3.8"
+    indent-string "^3.2.0"
+    lodash "^4.17.4"
+    string-width "^2.1.1"
+    widest-line "^2.0.0"
+    wrap-ansi "^3.0.1"
+
+"@anycli/manifest-file@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.2.0.tgz#f9f70fd2afb44178fe907f2a35ad8746eeb1ee97"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
     load-json-file "^4.0.0"
     lodash "^4.17.4"
     rwlockfile "^2.0.21"
+
+"@anycli/not-found@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@anycli/not-found/-/not-found-0.1.5.tgz#1f5ad2c7f201982e66a92210cd3efbb6719af94e"
+  dependencies:
+    "@anycli/command" "^0.2.9"
+    "@heroku-cli/color" "^1.1.1"
+    cli-ux "^3.3.8"
+    string-similarity "^1.2.0"
 
 "@anycli/parser@^0.1.1":
   version "0.1.3"
@@ -55,25 +78,26 @@
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@anycli/screen/-/screen-0.0.3.tgz#f0afd970c3ed725702948a45a874ede1fdd9362e"
 
-"@anycli/test@^0.9.20":
-  version "0.9.20"
-  resolved "https://registry.yarnpkg.com/@anycli/test/-/test-0.9.20.tgz#8b9dda015416409d5fb1f6e6e284bf0859e0aba8"
+"@anycli/test@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@anycli/test/-/test-0.10.0.tgz#0861a7bf0cb063a42adb0f086cf984c14024ce46"
   dependencies:
     fancy-test "^0.6.4"
     lodash "^4.17.4"
 
-"@anycli/tslint@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.1.4.tgz#9c8d73e07198633a1afdca69cda4b5b844ab3a72"
+"@anycli/tslint@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.2.0.tgz#192a612e3664f7a18fe6ed693de94de6d4563882"
   dependencies:
     tslint "^5.9.1"
-    tslint-xo "^0.5.0"
+    tslint-xo "^0.6.0"
 
-"@anycli/version@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@anycli/version/-/version-0.1.14.tgz#c5f376e9093a07339cb8970b7bed390990dc0101"
+"@anycli/version@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@anycli/version/-/version-0.1.15.tgz#81751d98c9f431833ca5b29e2b08aabc17edf44b"
   dependencies:
-    "@anycli/command" "^0.2.8"
+    "@anycli/command" "^0.2.9"
+    "@anycli/config" "^0.2.0"
     cli-ux "^3.3.9"
 
 "@commitlint/cli@^6.0.2":
@@ -175,6 +199,15 @@
   resolved "https://registry.yarnpkg.com/@commitlint/top-level/-/top-level-6.0.2.tgz#fffc584d7275868b884439e5ab02969dee3d62f5"
   dependencies:
     find-up "^2.1.0"
+
+"@heroku-cli/color@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.1.tgz#a2c25239ff1196733a79cabc7a750cd46b96dc30"
+  dependencies:
+    ansi-styles "^3.2.0"
+    chalk "^2.3.0"
+    strip-ansi "^4.0.0"
+    supports-color "^5.1.0"
 
 "@heroku/linewrap@^1.0.0":
   version "1.0.0"
@@ -1482,7 +1515,7 @@ lodash.zip@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
 
-lodash@^4.17.4, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.1:
+lodash@^4.13.1, lodash@^4.17.4, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -2160,6 +2193,12 @@ stream-combiner@~0.0.4:
   dependencies:
     duplexer "~0.1.1"
 
+string-similarity@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-1.2.0.tgz#d75153cb383846318b7a39a8d9292bb4db4e9c30"
+  dependencies:
+    lodash "^4.13.1"
+
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -2361,19 +2400,19 @@ tslint-eslint-rules@^4.1.1:
     tslib "^1.0.0"
     tsutils "^1.4.0"
 
-tslint-microsoft-contrib@^5.0.1:
+tslint-microsoft-contrib@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.0.2.tgz#ecc2a797f777a12f0066944cec0c81a9e7c59ee9"
   dependencies:
     tsutils "^2.12.1"
 
-tslint-xo@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/tslint-xo/-/tslint-xo-0.5.0.tgz#56e591dcd2731de35e7462a0dfa1214731ba9f27"
+tslint-xo@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/tslint-xo/-/tslint-xo-0.6.0.tgz#95a05b8dcac7aaa1f4d6ca1397a3c4c45a8b848e"
   dependencies:
     tslint-consistent-codestyle "^1.11.0"
     tslint-eslint-rules "^4.1.1"
-    tslint-microsoft-contrib "^5.0.1"
+    tslint-microsoft-contrib "^5.0.2"
 
 tslint@^5.9.1:
   version "5.9.1"
@@ -2459,6 +2498,12 @@ which@^1.2.9, which@^1.3.0:
   dependencies:
     isexe "^2.0.0"
 
+widest-line@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/widest-line/-/widest-line-2.0.0.tgz#0142a4e8a243f8882c0233aa0e0281aa76152273"
+  dependencies:
+    string-width "^2.1.1"
+
 wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
@@ -2469,6 +2514,13 @@ wrap-ansi@^2.0.0:
   dependencies:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
+
+wrap-ansi@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
+  dependencies:
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
 
 wrappy@1:
   version "1.0.2"
