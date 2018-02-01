@@ -11,7 +11,7 @@
   },
   "bugs": "https://github.com/anycli/example-multi-ts/issues",
   "dependencies": {
-    "@anycli/command": "^0.2.24",
+    "@anycli/command": "^0.3.0",
     "@anycli/config": "^0.2.8",
     "@anycli/engine": "^0.1.38",
     "@anycli/help": "^0.3.3",
