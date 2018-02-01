@@ -5,6 +5,8 @@ jobs:
     docker:
       - image: node:latest
     working_directory: ~/cli
+    environment:
+      NYC: yarn exec nyc -- --nycrc-path node_modules/@anycli/nyc-config/.nycrc
     steps:
       - checkout
       - restore_cache: &restore_cache
@@ -21,12 +23,12 @@ jobs:
           environment: {MOCHA_FILE: reports/mocha.xml}
           command: |
             mkdir -p reports
-            yarn exec nyc -- --nycrc-path node_modules/@anycli/nyc-config/.nycrc yarn test --reporter mocha-junit-reporter
+            $NYC yarn test --reporter mocha-junit-reporter
       - run:
           name: submit code coverage
           command: |
-          yarn exec nyc -- --nycrc-path node_modules/@anycli/nyc-config/.nycrc report --reporter text-lcov > coverage.lcov
-          curl -s https://codecov.io/bash | bash
+            $NYC report --reporter text-lcov > coverage.lcov
+            curl -s https://codecov.io/bash | bash
       - run:
           when: always
           command: ./bin/run -v
