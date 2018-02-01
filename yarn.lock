@@ -112,8 +112,8 @@
     cli-ux "^3.3.10"
 
 "@heroku-cli/color@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.1.tgz#a2c25239ff1196733a79cabc7a750cd46b96dc30"
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.2.tgz#d76266d88d0411f2f259e6bf713e02895188e10a"
   dependencies:
     ansi-styles "^3.2.0"
     chalk "^2.3.0"
@@ -128,9 +128,9 @@
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.2.tgz#f1af664769cfb50af805431c407425ed619daa21"
 
-"@types/lodash@^4.14.99":
-  version "4.14.99"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.99.tgz#e6e10c0a4cc16c7409b3181f1e66880d2fb7d4dc"
+"@types/lodash@^4.14.100":
+  version "4.14.100"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.100.tgz#f353dd9d3a9785638b6cb8023e6639097bd31969"
 
 "@types/mocha@^2.2.48":
   version "2.2.48"
@@ -1557,8 +1557,8 @@ type-check@~0.3.2:
     prelude-ls "~1.1.2"
 
 type-detect@^4.0.0:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.7.tgz#862bd2cf6058ad92799ff5a5b8cf7b6cec726198"
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
 
 typedarray@^0.0.6:
   version "0.0.6"

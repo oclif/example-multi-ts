@@ -25,7 +25,7 @@
     "@anycli/test": "^0.10.2",
     "@anycli/tslint": "^0.2.1",
     "@types/chai": "^4.1.2",
-    "@types/lodash": "^4.14.99",
+    "@types/lodash": "^4.14.100",
     "@types/mocha": "^2.2.48",
     "@types/nock": "^9.1.2",
     "@types/node": "^9.4.0",
