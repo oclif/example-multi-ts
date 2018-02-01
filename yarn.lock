@@ -59,8 +59,8 @@
     wrap-ansi "^3.0.1"
 
 "@anycli/manifest-file@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.3.tgz#9cf398b411037be01b00b0d1fd3cf2a40178dcf5"
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.5.tgz#63ce2bd820a35dd711d2f9b02ee826ada65e334e"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -112,8 +112,8 @@
     cli-ux "^3.3.10"
 
 "@heroku-cli/color@^1.1.1":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.2.tgz#d76266d88d0411f2f259e6bf713e02895188e10a"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.3.tgz#f5f3bb043c3c5c78888135a89633227cfca04b2b"
   dependencies:
     ansi-styles "^3.2.0"
     chalk "^2.3.0"
@@ -181,8 +181,8 @@ acorn@^3.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^5.2.1:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.3.0.tgz#7446d39459c54fb49a80e6ee6478149b940ec822"
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.4.0.tgz#51c581c9d4b1943dda59a3e73bcf02661ac727ea"
 
 ajv-keywords@^2.1.0:
   version "2.1.1"
