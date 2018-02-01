@@ -28,6 +28,7 @@ hello myname from hello!
 `,
     '$ example-multi-ts hello file outputs "hello world!" to file',
     '$ example-multi-ts hello --force',
+    '$ example-multi-ts hello --help',
   ]
 
   // allow running this command by running `$ example-multi-ts foobar`
