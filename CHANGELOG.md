@@ -1,3 +1,11 @@
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/anycli/example-multi-ts/compare/d273884035a573b9f24105b36423927880bd5a12...v0.7.0) (2018-02-01)
+
+
+### Features
+
+* anycli v0.31.0 ([60f9a6c](https://github.com/anycli/example-multi-ts/commit/60f9a6c))
+
 <a name="0.6.4"></a>
 ## [0.6.4](https://github.com/anycli/example-multi-ts/compare/b43ebad7001244df2ab60ae35d1f819aaf2fd798...v0.6.4) (2018-02-01)
 
