@@ -33,4 +33,7 @@ MOCHA_FILE=reports/mocha.xml "${NYC[@]}" yarn test --reporter mocha-junit-report
 "${NYC[@]}" report --reporter text-lcov > coverage.lcov
 curl -s https://codecov.io/bash | bash
 
+./bin/run -v
+./bin/run --help
+
 yarn exec commitlint -- -x @commitlint/config-conventional --from origin/master
