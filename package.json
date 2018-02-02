@@ -1,7 +1,7 @@
 {
   "name": "@anycli/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "author": "Jeff Dickey @jdxcode",
   "anycli": {
     "commands": "./lib/commands",
