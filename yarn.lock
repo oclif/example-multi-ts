@@ -23,9 +23,9 @@
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@anycli/engine@^0.1.48":
-  version "0.1.48"
-  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.48.tgz#027ea31f3f7d39250a313ab40e83a9c2dcb04455"
+"@anycli/engine@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.2.0.tgz#4db6bbf655082983de773b2a2cd06848001bae59"
   dependencies:
     "@anycli/manifest-file" "^0.3.8"
     cli-ux "^3.3.12"
@@ -33,6 +33,7 @@
     fs-extra "^5.0.0"
     globby "^7.1.1"
     lodash "^4.17.4"
+    semver "^5.5.0"
 
 "@anycli/manifest-file@^0.3.8":
   version "0.3.8"
