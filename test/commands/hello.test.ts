@@ -1,18 +1,16 @@
 import {expect, test} from '@anycli/test'
 
-const command = 'hello'
-
-describe(command, () => {
+describe('hello', () => {
   test
   .stdout()
-    .command([command])
+  .command(['hello'])
   .it('runs hello', ctx => {
     expect(ctx.stdout).to.contain('hello world from hello!')
   })
 
   test
   .stdout()
-    .command([command, '--name', 'jeff'])
+  .command(['hello', '--name', 'jeff'])
   .it('runs hello --name jeff', ctx => {
     expect(ctx.stdout).to.contain('hello jeff from hello!')
   })
