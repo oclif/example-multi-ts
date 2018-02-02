@@ -12,9 +12,9 @@
     lodash "^4.17.4"
     tslib "^1.9.0"
 
-"@anycli/command@^0.3.1", "@anycli/command@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.3.tgz#38f2d56fee0c18ad528c3a42d90ae9c97b17d652"
+"@anycli/command@^0.3.1", "@anycli/command@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.4.tgz#c02b07f0f309192021cd76fa66b3f88db173025e"
   dependencies:
     "@anycli/parser" "^3.0.4"
     cli-ux "^3.3.12"
@@ -33,11 +33,11 @@
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@anycli/engine@^0.1.42":
-  version "0.1.42"
-  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.42.tgz#584274b6c4c9a8b8ad5563cc3070921afbe0910d"
+"@anycli/engine@^0.1.43":
+  version "0.1.43"
+  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.43.tgz#67a4e1c8052d59541107d367a5d59621016e5e43"
   dependencies:
-    "@anycli/manifest-file" "^0.3.3"
+    "@anycli/manifest-file" "^0.3.6"
     cli-ux "^3.3.12"
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -58,7 +58,7 @@
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
 
-"@anycli/manifest-file@^0.3.3":
+"@anycli/manifest-file@^0.3.6":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.6.tgz#2542d91211a5cc74f7d02f9d21d4a33e683d8a2f"
   dependencies:
