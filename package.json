@@ -54,7 +54,7 @@
   "repository": "anycli/example-multi-ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "lint": "concurrently \"eslint .\" \"tsc -p test --noEmit\" \"tslint -p test\"",
+    "lint": "concurrently -p command \"eslint .\" \"tsc -p test --noEmit\" \"tslint -p test\"",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\""

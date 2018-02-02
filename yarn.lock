@@ -59,14 +59,14 @@
     wrap-ansi "^3.0.1"
 
 "@anycli/manifest-file@^0.3.3":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.5.tgz#63ce2bd820a35dd711d2f9b02ee826ada65e334e"
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.6.tgz#2542d91211a5cc74f7d02f9d21d4a33e683d8a2f"
   dependencies:
     debug "^3.1.0"
     fs-extra "^5.0.0"
     load-json-file "^4.0.0"
     lodash "^4.17.4"
-    rwlockfile "^2.0.23"
+    proper-lockfile "^3.0.2"
 
 "@anycli/not-found@^0.1.9":
   version "0.1.9"
@@ -779,7 +779,7 @@ globby@^7.1.1:
     pify "^3.0.0"
     slash "^1.0.0"
 
-graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -904,12 +904,6 @@ is-path-inside@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-path-inside/-/is-path-inside-1.0.1.tgz#8ef5b7de50437a3fdca6b4e865ef7aa55cb48036"
   dependencies:
     path-is-inside "^1.0.1"
-
-is-process-active@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/is-process-active/-/is-process-active-1.0.1.tgz#63616541f447d84b71783cb2002360cf7e690b4f"
-  dependencies:
-    debug "^3.1.0"
 
 is-promise@^2.1.0:
   version "2.1.0"
@@ -1189,6 +1183,13 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
+proper-lockfile@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-3.0.2.tgz#d30b3b83ecb157e08fe0d411f2393bc384b77ad1"
+  dependencies:
+    graceful-fs "^4.1.11"
+    retry "^0.10.1"
+
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -1247,6 +1248,10 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
+retry@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.10.1.tgz#e76388d217992c252750241d3d3956fed98d8ff4"
+
 rimraf@^2.2.8:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
@@ -1258,14 +1263,6 @@ run-async@^2.2.0:
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.3.0.tgz#0371ab4ae0bdd720d4166d7dfda64ff7a445a6c0"
   dependencies:
     is-promise "^2.1.0"
-
-rwlockfile@^2.0.23:
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/rwlockfile/-/rwlockfile-2.0.23.tgz#1bc2341e9d63b78a0b5399220dfcecfbc4c0edc1"
-  dependencies:
-    fs-extra "^5.0.0"
-    is-process-active "^1.0.1"
-    uuid "^3.2.1"
 
 rx-lite-aggregates@^4.0.8:
   version "4.0.8"
@@ -1575,10 +1572,6 @@ universalify@^0.1.0:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
-
-uuid@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
 v8flags@^3.0.0:
   version "3.0.1"
