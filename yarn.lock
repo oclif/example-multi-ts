@@ -59,9 +59,10 @@
     wrap-ansi "^3.0.1"
 
 "@anycli/manifest-file@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.6.tgz#2542d91211a5cc74f7d02f9d21d4a33e683d8a2f"
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.8.tgz#d175a27e1d2009a14080c7e8dd808c1c856de468"
   dependencies:
+    cli-ux "^3.3.12"
     debug "^3.1.0"
     fs-extra "^5.0.0"
     load-json-file "^4.0.0"
@@ -96,9 +97,9 @@
     fancy-test "^0.6.6"
     lodash "^4.17.4"
 
-"@anycli/tslint@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.2.1.tgz#17295a3a4c579884cd3aea7ed1d8c07d11ecc624"
+"@anycli/tslint@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.2.2.tgz#46e899f58019600fc6a7191e7fde47d6b4513df1"
   dependencies:
     tslint "^5.9.1"
     tslint-xo "^0.6.0"

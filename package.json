@@ -22,11 +22,8 @@
     "cli-ux": "^3.3.12"
   },
   "devDependencies": {
-    "@anycli/nyc-config": "0",
     "@anycli/test": "^0.10.2",
-    "@anycli/tslint": "^0.2.1",
-    "@commitlint/cli": "6",
-    "@commitlint/config-conventional": "6",
+    "@anycli/tslint": "^0.2.2",
     "@types/chai": "^4.1.2",
     "@types/lodash": "^4.14.100",
     "@types/mocha": "^2.2.48",
@@ -39,8 +36,6 @@
     "eslint": "^4.16.0",
     "eslint-config-anycli": "^1.3.1",
     "mocha": "^5.0.0",
-    "mocha-junit-reporter": "1",
-    "nyc": "11",
     "ts-node": "^4.1.0",
     "typescript": "^2.7.1"
   },
