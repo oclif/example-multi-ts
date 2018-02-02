@@ -2,19 +2,9 @@
 # yarn lockfile v1
 
 
-"@anycli/command@^0.2.19", "@anycli/command@^0.2.22":
-  version "0.2.25"
-  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.2.25.tgz#56d9424332e8defe457164615e8183b0333b4592"
-  dependencies:
-    "@anycli/parser" "^3.0.3"
-    cli-ux "^3.3.10"
-    debug "^3.1.0"
-    lodash "^4.17.4"
-    tslib "^1.9.0"
-
-"@anycli/command@^0.3.1", "@anycli/command@^0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.4.tgz#c02b07f0f309192021cd76fa66b3f88db173025e"
+"@anycli/command@^0.3.4", "@anycli/command@^0.3.5", "@anycli/command@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.6.tgz#02aadc38cee7bc4acb2069732cb1591dfc339c29"
   dependencies:
     "@anycli/parser" "^3.0.4"
     cli-ux "^3.3.12"
@@ -22,7 +12,7 @@
     lodash "^4.17.4"
     tslib "^1.9.0"
 
-"@anycli/config@^0.2.11", "@anycli/config@^0.2.3":
+"@anycli/config@^0.2.11":
   version "0.2.11"
   resolved "https://registry.yarnpkg.com/@anycli/config/-/config-0.2.11.tgz#1b043946b18e159e6e44195aa4fef309b79f8ede"
   dependencies:
@@ -33,32 +23,18 @@
     lodash "^4.17.4"
     read-pkg "^3.0.0"
 
-"@anycli/engine@^0.1.43":
-  version "0.1.43"
-  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.43.tgz#67a4e1c8052d59541107d367a5d59621016e5e43"
+"@anycli/engine@^0.1.48":
+  version "0.1.48"
+  resolved "https://registry.yarnpkg.com/@anycli/engine/-/engine-0.1.48.tgz#027ea31f3f7d39250a313ab40e83a9c2dcb04455"
   dependencies:
-    "@anycli/manifest-file" "^0.3.6"
+    "@anycli/manifest-file" "^0.3.8"
     cli-ux "^3.3.12"
     debug "^3.1.0"
     fs-extra "^5.0.0"
     globby "^7.1.1"
     lodash "^4.17.4"
 
-"@anycli/help@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@anycli/help/-/help-0.3.5.tgz#5fc846214da0b2a760885fe42c133bfd2903d5ab"
-  dependencies:
-    "@anycli/command" "^0.3.1"
-    "@anycli/screen" "^0.0.3"
-    chalk "^2.3.0"
-    cli-ux "^3.3.12"
-    indent-string "^3.2.0"
-    lodash "^4.17.4"
-    string-width "^2.1.1"
-    widest-line "^2.0.0"
-    wrap-ansi "^3.0.1"
-
-"@anycli/manifest-file@^0.3.6":
+"@anycli/manifest-file@^0.3.8":
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/@anycli/manifest-file/-/manifest-file-0.3.8.tgz#d175a27e1d2009a14080c7e8dd808c1c856de468"
   dependencies:
@@ -69,16 +45,7 @@
     lodash "^4.17.4"
     proper-lockfile "^3.0.2"
 
-"@anycli/not-found@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@anycli/not-found/-/not-found-0.1.9.tgz#73c316e04fb495fad2a7807b85f10e2450a060a6"
-  dependencies:
-    "@anycli/command" "^0.2.22"
-    "@heroku-cli/color" "^1.1.1"
-    cli-ux "^3.3.10"
-    string-similarity "^1.2.0"
-
-"@anycli/parser@^3.0.3", "@anycli/parser@^3.0.4":
+"@anycli/parser@^3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@anycli/parser/-/parser-3.0.4.tgz#8714c4f73134625fe3781b9e2b5aa0ebb5685a82"
   dependencies:
@@ -86,13 +53,43 @@
     chalk "^2.3.0"
     lodash "^4.17.4"
 
+"@anycli/plugin-help@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.3.7.tgz#aefde35b0b49b1598e893ed83910955bd24419ef"
+  dependencies:
+    "@anycli/command" "^0.3.6"
+    "@anycli/screen" "^0.0.3"
+    chalk "^2.3.0"
+    cli-ux "^3.3.12"
+    indent-string "^3.2.0"
+    lodash "^4.17.4"
+    string-width "^2.1.1"
+    widest-line "^2.0.0"
+    wrap-ansi "^3.0.1"
+
+"@anycli/plugin-not-found@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-not-found/-/plugin-not-found-0.1.10.tgz#3d99f748a7a025aaa89486b2eec08481fb7d6789"
+  dependencies:
+    "@anycli/command" "^0.3.4"
+    "@heroku-cli/color" "^1.1.3"
+    cli-ux "^3.3.12"
+    string-similarity "^1.2.0"
+
+"@anycli/plugin-version@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-version/-/plugin-version-0.1.20.tgz#c0b3bc5711d33bc7a71ef0264611165aab64ae3c"
+  dependencies:
+    "@anycli/command" "^0.3.5"
+    cli-ux "^3.3.12"
+
 "@anycli/screen@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@anycli/screen/-/screen-0.0.3.tgz#f0afd970c3ed725702948a45a874ede1fdd9362e"
 
-"@anycli/test@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@anycli/test/-/test-0.10.2.tgz#59019ff864dcb431e07bfa16659fa4d64fc8be4b"
+"@anycli/test@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@anycli/test/-/test-0.10.3.tgz#f0179c6407f7a4a71893bd1ded95a0669b20ea31"
   dependencies:
     fancy-test "^0.6.6"
     lodash "^4.17.4"
@@ -104,15 +101,7 @@
     tslint "^5.9.1"
     tslint-xo "^0.6.0"
 
-"@anycli/version@^0.1.19":
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/@anycli/version/-/version-0.1.19.tgz#4464c3c831e0dc1d0ef92375167ec9af923b66c3"
-  dependencies:
-    "@anycli/command" "^0.2.19"
-    "@anycli/config" "^0.2.3"
-    cli-ux "^3.3.10"
-
-"@heroku-cli/color@^1.1.1":
+"@heroku-cli/color@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@heroku-cli/color/-/color-1.1.3.tgz#f5f3bb043c3c5c78888135a89633227cfca04b2b"
   dependencies:
@@ -1011,8 +1000,8 @@ make-error@^1.1.1:
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.2.tgz#8762ffad2444dd8ff1f7c819629fa28e24fea1c4"
 
 mimic-fn@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.1.0.tgz#e667783d92e89dbd342818b5230b9d62a672ad18"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
 minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
