@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@anycli/command@^0.3.4", "@anycli/command@^0.3.5", "@anycli/command@^0.3.6", "@anycli/command@^0.3.7":
+"@anycli/command@^0.3.4", "@anycli/command@^0.3.5", "@anycli/command@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.7.tgz#293c366ed8227fcdc675e278a46d8f93435526a5"
   dependencies:
@@ -54,14 +54,14 @@
     chalk "^2.3.0"
     lodash "^4.17.4"
 
-"@anycli/plugin-help@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.3.7.tgz#aefde35b0b49b1598e893ed83910955bd24419ef"
+"@anycli/plugin-help@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.4.0.tgz#23ecd77f62431a7fa9d86ae1efe25f721f13afd2"
   dependencies:
-    "@anycli/command" "^0.3.6"
+    "@anycli/command" "^0.3.7"
     "@anycli/screen" "^0.0.3"
     chalk "^2.3.0"
-    cli-ux "^3.3.12"
+    cli-ux "^3.3.13"
     indent-string "^3.2.0"
     lodash "^4.17.4"
     string-width "^2.1.1"
