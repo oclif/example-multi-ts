@@ -1,5 +1,4 @@
 import {Command, flags} from '@anycli/command'
-import cli from 'cli-ux'
 
 export default class Hello extends Command {
   static title = 'scaffolded command that says hello'
@@ -79,9 +78,9 @@ hello myname from hello!
     const {args, flags} = this.parse(Hello)
 
     const name = flags.name || 'world'
-    cli.log(`hello ${name} from hello!`)
+    this.log(`hello ${name} from hello!`)
     if (args.file && flags.force) {
-      cli.log(`you input ${args.file}`)
+      this.log(`you input ${args.file}`)
     }
   }
 }
