@@ -22,7 +22,7 @@
     "globby": "^7.1.1"
   },
   "devDependencies": {
-    "@anycli/dev-cli": "^0.2.2",
+    "@anycli/dev-cli": "^0.3.0",
     "@anycli/test": "^0.10.11",
     "@anycli/tslint": "^0.2.7",
     "@types/chai": "^4.1.2",
