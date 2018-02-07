@@ -1,3 +1,11 @@
+<a name="0.9.16"></a>
+## [0.9.16](https://github.com/anycli/example-multi-ts/compare/2f7ed2f0332a09f2e8fb37e88258c1b25b06b10b...v0.9.16) (2018-02-07)
+
+
+### Bug Fixes
+
+* anycli v0.33.19 ([f0f3e49](https://github.com/anycli/example-multi-ts/commit/f0f3e49))
+
 <a name="0.9.15"></a>
 ## [0.9.15](https://github.com/anycli/example-multi-ts/compare/dee815d6789e0a195f265a1340dfd5603273ade4...v0.9.15) (2018-02-07)
 
