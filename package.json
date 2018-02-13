@@ -1,64 +1,64 @@
 {
-  "name": "@anycli/example-multi-ts",
+  "name": "@oclif/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
   "version": "0.9.19",
   "author": "Jeff Dickey @jdxcode",
-  "anycli": {
-    "commands": "./lib/commands",
-    "bin": "example-multi-ts",
-    "plugins": [
-      "@anycli/plugin-help"
-    ]
-  },
   "bin": {
     "example-multi-ts": "./bin/run"
   },
-  "bugs": "https://github.com/anycli/example-multi-ts/issues",
+  "bugs": "https://github.com/oclif/example-multi-ts/issues",
   "dependencies": {
-    "@anycli/command": "^1.2.19",
-    "@anycli/config": "^1.3.45",
-    "@anycli/errors": "^0.2.2",
-    "@anycli/plugin-help": "^0.7.2",
+    "@oclif/command": "^1.2.22",
+    "@oclif/config": "^1.3.47",
+    "@oclif/errors": "^1.0.1",
+    "@oclif/plugin-help": "^0.7.4",
     "globby": "^7.1.1"
   },
   "devDependencies": {
-    "@anycli/dev-cli": "^0.3.9",
-    "@anycli/test": "^0.10.15",
-    "@anycli/tslint": "^0.2.7",
+    "@oclif/dev-cli": "^0.3.14",
+    "@oclif/test": "^0.10.16",
+    "@oclif/tslint": "^0.2.10",
     "@types/chai": "^4.1.2",
     "@types/mocha": "^2.2.48",
-    "@types/node": "^9.4.1",
+    "@types/node": "^9.4.5",
     "chai": "^4.1.2",
-    "concurrently": "^3.5.1",
     "mocha": "^5.0.0",
     "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
     "typescript": "^2.7.1"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "files": [
-    ".anycli.manifest.json",
+    ".oclif.manifest.json",
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/anycli/example-multi-ts",
+  "homepage": "https://github.com/oclif/example-multi-ts",
   "keywords": [
-    "anycli"
+    "oclif"
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "anycli/example-multi-ts",
+  "oclif": {
+    "commands": "./lib/commands",
+    "bin": "example-multi-ts",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "oclif/example-multi-ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "clean": "rm -f .anycli.manifest.json",
-    "lint": "concurrently -p command \"tsc -p test --noEmit\" \"tslint -p test -t stylish\"",
+    "clean": "rm -f .oclif.manifest.json",
+    "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
     "postpublish": "yarn run clean",
     "posttest": "yarn run lint",
-    "prepublishOnly": "yarn run build && anycli-dev manifest && anycli-dev readme",
+    "prepublishOnly": "yarn run build && oclif-dev manifest && oclif-dev readme",
     "preversion": "yarn run clean",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "anycli-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md"
   },
   "types": "lib/index.d.ts"
 }

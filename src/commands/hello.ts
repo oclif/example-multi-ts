@@ -1,4 +1,4 @@
-import {Command, flags} from '@anycli/command'
+import {Command, flags} from '@oclif/command'
 
 export default class Hello extends Command {
   static title = 'scaffolded command that says hello'
