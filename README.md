@@ -11,3 +11,7 @@ example multi-command CLI built with typescript
 [![Known Vulnerabilities](https://snyk.io/test/npm/@oclif/example-multi-ts/badge.svg)](https://snyk.io/test/npm/@oclif/example-multi-ts)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@oclif/example-multi-ts)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-ts.svg)](https://github.com/oclif/example-multi-ts/blob/master/package.json)
+
+<!-- install -->
+<!-- usage -->
+<!-- commands -->
