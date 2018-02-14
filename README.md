@@ -13,9 +13,9 @@ example multi-command CLI built with typescript
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-ts.svg)](https://github.com/oclif/example-multi-ts/blob/master/package.json)
 
 <!-- toc -->
-* [Install](#Install)
-* [Usage](#Usage)
-* [Commands](#Commands)
+* [Install](#install)
+* [Usage](#usage)
+* [Commands](#commands)
 <!-- tocstop -->
 <!-- install -->
 # Install
@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.1.2 (linux-x64) node-v9.5.0
+@oclif/example-multi-ts/1.2.0 (linux-x64) node-v9.5.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND [OPTIONS]
@@ -50,6 +50,8 @@ USAGE
 * [example-multi-ts hello [FILE] [OPTIONS]](#hello)
 * [example-multi-ts help [COMMAND] [OPTIONS]](#help)
 ## hello [FILE] [OPTIONS]
+
+Describe the command here
 
 ```
 USAGE
@@ -75,12 +77,12 @@ EXAMPLES
   $ example-multi-ts hello --name myname
   hello myname from hello!
 
-  $ example-multi-ts hello file outputs "hello world!" to file
+  $ example-multi-ts hello ./afile outputs "hello world!" to ./afile
   $ example-multi-ts hello --force
   $ example-multi-ts hello --help
 ```
 
-_See code: [@oclif/example-multi-ts](https://github.com/oclif/example-multi-ts/blob/v1.1.2/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.0/src/commands/hello.ts)_
 
 ## help [COMMAND] [OPTIONS]
 

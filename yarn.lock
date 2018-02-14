@@ -15,18 +15,18 @@
   dependencies:
     "@oclif/parser" "^3.2.8"
 
-"@oclif/config@^1.3.45", "@oclif/config@^1.3.51":
-  version "1.3.51"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.3.51.tgz#5ba60d975ea87725957b71e3940e559497989b53"
+"@oclif/config@^1.3.51", "@oclif/config@^1.3.52":
+  version "1.3.52"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.3.52.tgz#505711fdaecee880131c2fcec4d2b54d7c0b93c8"
 
-"@oclif/dev-cli@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.2.0.tgz#2d6e2330ebc82802063104212b9d1ed9b4ee316e"
+"@oclif/dev-cli@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.2.4.tgz#9f9c07d1fce3c26ef14e65594762ffc249492a2f"
   dependencies:
     "@oclif/command" "^1.2.22"
-    "@oclif/config" "^1.3.45"
+    "@oclif/config" "^1.3.51"
     "@oclif/errors" "^1.0.1"
-    "@oclif/plugin-help" "^1.0.0"
+    "@oclif/plugin-help" "^1.0.1"
     lodash.template "^4.4.0"
     normalize-package-data "^2.4.0"
     require-resolve "^0.0.2"
@@ -45,7 +45,7 @@
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.8.tgz#2b2e35b5c075d200d70950923acd64e258c5ae1d"
 
-"@oclif/plugin-help@^1.0.0", "@oclif/plugin-help@^1.0.1":
+"@oclif/plugin-help@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.0.1.tgz#1421438edfade7fa6aed4ae9b4aa6a8ff2d226d3"
   dependencies:
