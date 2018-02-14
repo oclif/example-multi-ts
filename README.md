@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.2.3 (linux-x64) node-v9.5.0
+@oclif/example-multi-ts/1.2.4 (linux-x64) node-v9.5.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND [OPTIONS]
@@ -83,7 +83,7 @@ EXAMPLES
   $ example-multi-ts hello --help
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.3/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.4/src/commands/hello.ts)_
 
 ## help [COMMAND] [OPTIONS]
 
