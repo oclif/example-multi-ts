@@ -12,8 +12,13 @@ example multi-command CLI built with typescript
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@oclif/example-multi-ts)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-ts.svg)](https://github.com/oclif/example-multi-ts/blob/master/package.json)
 
+<!-- toc -->
+* [Install](#Install)
+* [Usage](#Usage)
+* [Commands](#Commands)
+<!-- tocstop -->
 <!-- install -->
-# Installing @oclif/example-multi-ts
+# Install
 
 with yarn:
 ```
@@ -32,7 +37,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.1.1 (linux-x64) node-v9.5.0
+@oclif/example-multi-ts/1.1.2 (linux-x64) node-v9.5.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND [OPTIONS]
@@ -75,7 +80,7 @@ EXAMPLES
   $ example-multi-ts hello --help
 ```
 
-_See code: [@oclif/example-multi-ts](https://github.com/oclif/example-multi-ts/blob/v1.1.1/src/commands/hello.ts)_
+_See code: [@oclif/example-multi-ts](https://github.com/oclif/example-multi-ts/blob/v1.1.2/src/commands/hello.ts)_
 
 ## help [COMMAND] [OPTIONS]
 
