@@ -22,7 +22,8 @@ hello world from hello!
     `$ example-multi-ts hello --name myname
 hello myname from hello!
 `,
-    '$ example-multi-ts hello ./afile outputs "hello world!" to ./afile',
+    `$ example-multi-ts hello ./afile
+# outputs "hello world!" to ./afile`,
     '$ example-multi-ts hello --force',
     '$ example-multi-ts hello --help',
   ]
