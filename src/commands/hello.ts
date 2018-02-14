@@ -1,8 +1,11 @@
 import {Command, flags} from '@oclif/command'
 
 export default class Hello extends Command {
-  static title = 'scaffolded command that says hello'
-
+  static description = `
+Describe the command here
+...
+Extra documentation goes here
+`
   // hide the command from help
   // can also set hidden on args and flags
   // static hidden = true
@@ -11,12 +14,6 @@ export default class Hello extends Command {
   // add your own by setting this variable
   // can be a string or array
   // static usage = 'title of command'
-
-  static description = `
-Add a longer description here
-...
-...
-`
 
   static examples = [
     `$ example-multi-ts hello
