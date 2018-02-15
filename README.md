@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.2.9 (linux-x64) node-v9.5.0
+@oclif/example-multi-ts/1.2.10 (linux-x64) node-v9.5.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
@@ -51,24 +51,15 @@ USAGE
 * [example-multi-ts help [COMMAND]](#help)
 ## hello [FILE]
 
-Describe the command here
+describe the command here
 
 ```
 USAGE
   $ example-multi-ts hello [FILE]
 
-ARGUMENTS
-  FILE  file to output
-
 OPTIONS
   -f, --force
   -n, --name=name  name to print
-
-DESCRIPTION
-  Describe the command here
-  ...
-  Extra documentation goes here
-
 
 EXAMPLES
   $ example-multi-ts hello
@@ -76,14 +67,9 @@ EXAMPLES
 
   $ example-multi-ts hello --name myname
   hello myname from .src/hello.ts!
-
-  $ example-multi-ts hello ./afile
-  # outputs "hello world!" to ./afile
-  $ example-multi-ts hello --force
-  $ example-multi-ts hello --help
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.9/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.10/src/commands/hello.ts)_
 
 ## help [COMMAND]
 
