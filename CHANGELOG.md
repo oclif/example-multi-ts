@@ -1,3 +1,11 @@
+<a name="1.2.8"></a>
+## [1.2.8](https://github.com/oclif/example-multi-ts/compare/7f8a73b9cd1c689f9c396004d4455b2b48cdf3f2...v1.2.8) (2018-02-15)
+
+
+### Bug Fixes
+
+* oclif v1.2.8 ([95514ce](https://github.com/oclif/example-multi-ts/commit/95514ce))
+
 <a name="1.2.7"></a>
 ## [1.2.7](https://github.com/oclif/example-multi-ts/compare/014efa5c62a620c48d3c447d1f59939a0c681459...v1.2.7) (2018-02-15)
 
