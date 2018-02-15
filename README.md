@@ -8,7 +8,7 @@ example multi-command CLI built with typescript
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-ts?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/example-multi-ts/branch/master)
 [![Codecov](https://codecov.io/gh/oclif/example-multi-ts/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-ts)
 [![Greenkeeper](https://badges.greenkeeper.io/oclif/example-multi-ts.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/npm/@oclif/example-multi-ts/badge.svg)](https://snyk.io/test/npm/@oclif/example-multi-ts)
+[![Known Vulnerabilities](https://snyk.io/test/github/oclif/example-multi-ts/badge.svg)](https://snyk.io/test/github/oclif/example-multi-ts)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@oclif/example-multi-ts)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-ts.svg)](https://github.com/oclif/example-multi-ts/blob/master/package.json)
 
@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.2.6 (linux-x64) node-v9.5.0
+@oclif/example-multi-ts/1.2.7 (linux-x64) node-v9.5.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
@@ -83,7 +83,7 @@ EXAMPLES
   $ example-multi-ts hello --help
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.6/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.2.7/src/commands/hello.ts)_
 
 ## help [COMMAND] [OPTIONS]
 
