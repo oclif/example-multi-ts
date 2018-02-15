@@ -1,3 +1,11 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/oclif/example-multi-ts/compare/e8e830744c8b216f4da85b52ec7fcbb250fa3a76...v1.3.0) (2018-02-15)
+
+
+### Features
+
+* oclif v1.3.0 ([6877015](https://github.com/oclif/example-multi-ts/commit/6877015))
+
 <a name="1.2.14"></a>
 ## [1.2.14](https://github.com/oclif/example-multi-ts/compare/2f69dc12b7f2b07fa94fcc0249754a1763fdbed9...v1.2.14) (2018-02-15)
 
