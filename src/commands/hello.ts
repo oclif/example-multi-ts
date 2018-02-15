@@ -17,10 +17,10 @@ Extra documentation goes here
 
   static examples = [
     `$ example-multi-ts hello
-hello world from hello!
+hello world from ./src/hello.ts!
 `,
     `$ example-multi-ts hello --name myname
-hello myname from hello!
+hello myname from .src/hello.ts!
 `,
     `$ example-multi-ts hello ./afile
 # outputs "hello world!" to ./afile`,
@@ -76,7 +76,7 @@ hello myname from hello!
     const {args, flags} = this.parse(Hello)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from hello!`)
+    this.log(`hello ${name} from ./src/hello.ts!`)
     if (args.file && flags.force) {
       this.log(`you input ${args.file}`)
     }
