@@ -24,7 +24,7 @@ hello myname from .src/hello.ts!
     const {args, flags} = this.parse(Hello)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/hello.ts!`)
+    this.log(`hello ${name} from ${__filename}!`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }
