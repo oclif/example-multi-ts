@@ -17,14 +17,13 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1.2.20",
     "@oclif/test": "^1.0.1",
-    "@oclif/tslint": "^1.0.2",
     "@types/chai": "^4.1.2",
     "@types/mocha": "^2.2.48",
     "@types/node": "^9.4.7",
     "chai": "^4.1.2",
     "mocha": "^5.0.4",
     "ts-node": "5",
-    "tslint": "^5.9.1",
+    "tslib": "^1.9.0",
     "typescript": "^2.7.2"
   },
   "engines": {
@@ -52,7 +51,7 @@
   "scripts": {
     "build": "rm -rf lib && tsc",
     "clean": "rm -f .oclif.manifest.json",
-    "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
+    "lint": "tsc -p test --noEmit",
     "postpublish": "yarn run clean",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build && oclif-dev manifest && oclif-dev readme",
