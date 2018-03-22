@@ -53,7 +53,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.4.8/src/commands/hello.ts)_
+_See code: [lib/commands/hello.js](https://github.com/oclif/example-multi-ts/blob/v1.4.8/lib/commands/hello.js)_
 
 ## help [COMMAND]
 

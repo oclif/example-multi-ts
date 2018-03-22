@@ -10,22 +10,21 @@
   "dependencies": {
     "@oclif/command": "^1.4.2",
     "@oclif/config": "^1.3.59",
+    "@oclif/dev-cli": "^1.3.1",
     "@oclif/errors": "^1.0.2",
     "@oclif/plugin-help": "^1.1.6",
-    "globby": "^8.0.1"
-  },
-  "devDependencies": {
-    "@oclif/dev-cli": "^1.3.1",
     "@oclif/test": "^1.0.1",
     "@types/chai": "^4.1.2",
-    "@types/mocha": "^2.2.48",
-    "@types/node": "^9.4.7",
+    "@types/mocha": "^5.0.0",
+    "@types/node": "^8.10.0",
     "chai": "^4.1.2",
+    "globby": "^8.0.1",
     "mocha": "^5.0.4",
-    "ts-node": "5",
+    "ts-node": "^5.0.1",
     "tslib": "^1.9.0",
     "typescript": "^2.7.2"
   },
+  "devDependencies": {},
   "engines": {
     "node": ">=8.0.0"
   },
