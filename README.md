@@ -24,7 +24,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.4.7 linux-x64 node-v9.9.0
+@oclif/example-multi-ts/1.4.7 linux-x64 node-v9.8.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
@@ -48,12 +48,9 @@ OPTIONS
   -f, --force
   -n, --name=name  name to print
 
-EXAMPLES
+EXAMPLE
   $ example-multi-ts hello
   hello world from ./src/hello.ts!
-
-  $ example-multi-ts hello --name myname
-  hello myname from .src/hello.ts!
 ```
 
 _See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.4.7/src/commands/hello.ts)_

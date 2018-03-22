@@ -7,9 +7,6 @@ export default class Hello extends Command {
     `$ example-multi-ts hello
 hello world from ./src/hello.ts!
 `,
-    `$ example-multi-ts hello --name myname
-hello myname from .src/hello.ts!
-`,
   ]
 
   static flags = {
