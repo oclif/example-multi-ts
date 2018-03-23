@@ -16,9 +16,8 @@ example multi-command CLI built with typescript
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-<!-- usage -->
 # Usage
-
+<!-- usage -->
 ```sh-session
 $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
@@ -31,9 +30,8 @@ USAGE
 ...
 ```
 <!-- usagestop -->
-<!-- commands -->
 # Commands
-
+<!-- commands -->
 * [example-multi-ts hello [FILE]](#hello-file)
 * [example-multi-ts help [COMMAND]](#help-command)
 ## hello [FILE]
