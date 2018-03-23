@@ -1,3 +1,11 @@
+<a name="1.4.11"></a>
+## [1.4.11](https://github.com/oclif/example-multi-ts/compare/a78185555d6282b27b66151437752a2e6de716db...v1.4.11) (2018-03-23)
+
+
+### Bug Fixes
+
+* oclif v1.4.11 ([9d98327](https://github.com/oclif/example-multi-ts/commit/9d98327))
+
 <a name="1.4.10"></a>
 ## [1.4.10](https://github.com/oclif/example-multi-ts/compare/b6d8187f5804b340c6b495106d48d087eaece125...v1.4.10) (2018-03-22)
 
