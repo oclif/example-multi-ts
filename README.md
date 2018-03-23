@@ -34,7 +34,7 @@ USAGE
 <!-- commands -->
 * [example-multi-ts hello [FILE]](#hello-file)
 * [example-multi-ts help [COMMAND]](#help-command)
-## hello [FILE]
+## example-multi-ts hello [FILE]
 
 describe the command here
 
@@ -53,7 +53,7 @@ EXAMPLE
 
 _See code: [lib/commands/hello.js](https://github.com/oclif/example-multi-ts/blob/v1.5.1/lib/commands/hello.js)_
 
-## help [COMMAND]
+## example-multi-ts help [COMMAND]
 
 display help for example-multi-ts
 
