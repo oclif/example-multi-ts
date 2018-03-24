@@ -1,3 +1,12 @@
+<a name="1.7.2"></a>
+## [1.7.2](https://github.com/oclif/example-multi-ts/compare/v1.7.1...v1.7.2) (2018-03-24)
+
+
+### Bug Fixes
+
+* use new semantic-release ([249af91](https://github.com/oclif/example-multi-ts/commit/249af91))
+* use new semantic-release ([9d1f796](https://github.com/oclif/example-multi-ts/commit/9d1f796))
+
 <a name="1.7.1"></a>
 ## [1.7.1](https://github.com/oclif/example-multi-ts/compare/6e6c34a5acc7c0f05e1862111f1158650e9c4cf5...v1.7.1) (2018-03-24)
 
