@@ -10,7 +10,7 @@
   "dependencies": {
     "@oclif/command": "^1.4.5",
     "@oclif/config": "^1.3.60",
-    "@oclif/plugin-help": "^1.2.0"
+    "@oclif/plugin-help": "^1.2.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.4.2",
