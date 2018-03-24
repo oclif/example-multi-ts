@@ -9,7 +9,7 @@
   "bugs": "https://github.com/oclif/example-multi-ts/issues",
   "dependencies": {
     "@oclif/command": "^1.4.5",
-    "@oclif/config": "^1.3.60",
+    "@oclif/config": "^1.3.61",
     "@oclif/plugin-help": "^1.2.1"
   },
   "devDependencies": {
