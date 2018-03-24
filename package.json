@@ -10,8 +10,10 @@
   "dependencies": {
     "@oclif/command": "^1.4.3",
     "@oclif/config": "^1.3.59",
+    "@oclif/plugin-help": "^1.1.7"
+  },
+  "devDependencies": {
     "@oclif/dev-cli": "^1.4.2",
-    "@oclif/plugin-help": "^1.1.7",
     "@oclif/test": "^1.0.1",
     "@types/chai": "^4.1.2",
     "@types/mocha": "^5.0.0",
@@ -23,7 +25,6 @@
     "tslib": "^1.9.0",
     "typescript": "^2.7.2"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=8.0.0"
   },
