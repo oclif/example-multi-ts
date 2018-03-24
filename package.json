@@ -21,7 +21,7 @@
     "chai": "^4.1.2",
     "globby": "^8.0.1",
     "mocha": "^5.0.5",
-    "ts-node": "^5.0.1",
+    "ts-node": "5",
     "tslib": "^1.9.0",
     "typescript": "^2.7.2"
   },
@@ -51,10 +51,10 @@
     "build": "rm -rf lib && tsc",
     "clean": "rm -f .oclif.manifest.json",
     "lint": "tsc -p test --noEmit",
-    "postpublish": "npm run clean",
-    "posttest": "npm run lint",
-    "prepublishOnly": "npm run build && oclif-dev manifest && oclif-dev readme",
-    "preversion": "npm run clean",
+    "postpublish": "yarn run clean",
+    "posttest": "yarn run lint",
+    "prepublishOnly": "yarn run build && oclif-dev manifest && oclif-dev readme",
+    "preversion": "yarn run clean",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md"
   },
