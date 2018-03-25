@@ -13,11 +13,11 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@oclif/command@^1.4.2", "@oclif/command@^1.4.4", "@oclif/command@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.5.tgz#470df74446b9534e58bd513ef827419979e25b93"
+"@oclif/command@^1.4.2", "@oclif/command@^1.4.4", "@oclif/command@^1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.6.tgz#6de7789cfc6ae6cdf177566fbfbb742d5cb8f320"
   dependencies:
-    "@oclif/errors" "^1.0.2"
+    "@oclif/errors" "^1.0.3"
     "@oclif/parser" "^3.2.9"
     debug "^3.1.0"
     semver "^5.5.0"
@@ -41,7 +41,7 @@
     normalize-package-data "^2.4.0"
     require-resolve "^0.0.2"
 
-"@oclif/errors@^1.0.2":
+"@oclif/errors@^1.0.2", "@oclif/errors@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@oclif/errors/-/errors-1.0.3.tgz#f23c024075855c7d116d041ee158f99bd51175af"
   dependencies:
