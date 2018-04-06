@@ -369,11 +369,11 @@ extglob@^2.0.4:
     to-regex "^3.0.1"
 
 fancy-test@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.0.3.tgz#9a1a109973f39eeecb5f35c9df0e1700214cf2a0"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.0.4.tgz#fa689cfc98abec74a0b2f4386d92c58f1ef20f11"
   dependencies:
     lodash "^4.17.5"
-    stdout-stderr "^0.1.7"
+    stdout-stderr "^0.1.8"
 
 fast-glob@^2.0.2:
   version "2.2.0"
@@ -1014,10 +1014,11 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-stdout-stderr@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/stdout-stderr/-/stdout-stderr-0.1.7.tgz#f3f69391f3e721c2c52aa92fbfa18b8a6e9ce3df"
+stdout-stderr@^0.1.8:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/stdout-stderr/-/stdout-stderr-0.1.9.tgz#9b48ee04eff955ee07776e27125d5524d9d02f57"
   dependencies:
+    debug "^3.1.0"
     strip-ansi "^4.0.0"
 
 string-width@^2.1.1:
