@@ -13,9 +13,9 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@oclif/command@^1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.6.tgz#6de7789cfc6ae6cdf177566fbfbb742d5cb8f320"
+"@oclif/command@^1.4.6", "@oclif/command@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.7.tgz#32423fcb3317c1e9fd5b864c728ddd5e4f8fd361"
   dependencies:
     "@oclif/errors" "^1.0.3"
     "@oclif/parser" "^3.2.9"
@@ -69,11 +69,11 @@
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
 
-"@oclif/test@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.1.tgz#042c6e47319c739b34c54bf12aaff996f4e055fe"
+"@oclif/test@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.4.tgz#07c28c18f959a6b860b5781465884773f893fafb"
   dependencies:
-    fancy-test "^1.0.1"
+    fancy-test "^1.0.3"
 
 "@types/chai@^4.1.2":
   version "4.1.2"
@@ -368,12 +368,12 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fancy-test@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.0.1.tgz#28eb801dffc341d7202ed90b6944019922b08b5b"
+fancy-test@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.0.3.tgz#9a1a109973f39eeecb5f35c9df0e1700214cf2a0"
   dependencies:
-    lodash "^4.17.4"
-    stdout-stderr "^0.1.6"
+    lodash "^4.17.5"
+    stdout-stderr "^0.1.7"
 
 fast-glob@^2.0.2:
   version "2.2.0"
@@ -691,7 +691,7 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
-lodash@^4.17.4, lodash@^4.17.5:
+lodash@^4.17.5:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
@@ -1014,7 +1014,7 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-stdout-stderr@^0.1.6:
+stdout-stderr@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/stdout-stderr/-/stdout-stderr-0.1.7.tgz#f3f69391f3e721c2c52aa92fbfa18b8a6e9ce3df"
   dependencies:
