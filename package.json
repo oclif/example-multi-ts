@@ -9,8 +9,8 @@
   "bugs": "https://github.com/oclif/example-multi-ts/issues",
   "dependencies": {
     "@oclif/command": "^1.4.7",
-    "@oclif/config": "^1.3.62",
-    "@oclif/plugin-help": "^1.2.2"
+    "@oclif/config": "^1.3.64",
+    "@oclif/plugin-help": "^1.2.3"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.4.4",
@@ -50,9 +50,8 @@
   "scripts": {
     "build": "rm -rf lib && tsc",
     "clean": "rm -f .oclif.manifest.json",
-    "lint": "tsc -p test --noEmit",
     "postpublish": "yarn run clean",
-    "posttest": "yarn run lint",
+    "posttest": "tsc -p test --noEmit",
     "prepublishOnly": "yarn run build && oclif-dev manifest && oclif-dev readme",
     "preversion": "yarn run clean",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
