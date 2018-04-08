@@ -8,12 +8,12 @@
   },
   "bugs": "https://github.com/oclif/example-multi-ts/issues",
   "dependencies": {
-    "@oclif/command": "^1.4.7",
-    "@oclif/config": "^1.3.65",
+    "@oclif/command": "^1.4.8",
+    "@oclif/config": "^1.4.0",
     "@oclif/plugin-help": "^1.2.3"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.6.0",
+    "@oclif/dev-cli": "^1.8.0",
     "@oclif/test": "^1.0.4",
     "@types/chai": "^4.1.2",
     "@types/mocha": "^5.0.0",

@@ -43,6 +43,7 @@ USAGE
 
 OPTIONS
   -f, --force
+  -h, --help       show CLI help
   -n, --name=name  name to print
 
 EXAMPLE
