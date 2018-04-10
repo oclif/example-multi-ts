@@ -1,3 +1,11 @@
+<a name="1.7.30"></a>
+## [1.7.30](https://github.com/oclif/example-multi-ts/compare/v1.7.29...v1.7.30) (2018-04-10)
+
+
+### Bug Fixes
+
+* oclif v1.7.29 ([cbef494](https://github.com/oclif/example-multi-ts/commit/cbef494))
+
 <a name="1.7.29"></a>
 ## [1.7.29](https://github.com/oclif/example-multi-ts/compare/v1.7.28...v1.7.29) (2018-04-09)
 
