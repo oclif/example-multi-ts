@@ -9,7 +9,7 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@oclif/command@1", "@oclif/command@^1.4.13", "@oclif/command@^1.4.7":
+"@oclif/command@1", "@oclif/command@^1.4.13":
   version "1.4.13"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.13.tgz#2ed3c42142307d20337ec04eabd1be410dfa2a5e"
   dependencies:
@@ -19,8 +19,8 @@
     semver "^5.5.0"
 
 "@oclif/config@1", "@oclif/config@^1.6.0":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.1.tgz#561c8950a01fa3255821f7a6810974b625133b1b"
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.2.tgz#4f176fede5be7a669e6ed6a37c0b30a80b713379"
   dependencies:
     debug "^3.1.0"
 
@@ -63,10 +63,10 @@
     chalk "^2.3.2"
 
 "@oclif/plugin-help@1", "@oclif/plugin-help@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.2.3.tgz#f85e88744ec271d38949fda5c51185ad7f99e77d"
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.2.4.tgz#1b4349f7d570445ad5cfe4f925bfd832d4552aa2"
   dependencies:
-    "@oclif/command" "^1.4.7"
+    "@oclif/command" "^1.4.13"
     chalk "^2.3.2"
     indent-string "^3.2.0"
     lodash.template "^4.4.0"
