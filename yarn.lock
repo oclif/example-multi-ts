@@ -9,30 +9,29 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@oclif/command@1", "@oclif/command@^1.4.10", "@oclif/command@^1.4.7":
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.10.tgz#15d229ba975018ca62cf4a94bec6d9796e18b619"
+"@oclif/command@1", "@oclif/command@^1.4.13", "@oclif/command@^1.4.7":
+  version "1.4.13"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.13.tgz#2ed3c42142307d20337ec04eabd1be410dfa2a5e"
   dependencies:
     "@oclif/errors" "^1.0.4"
-    "@oclif/parser" "^3.2.13"
+    "@oclif/parser" "^3.3.2"
     debug "^3.1.0"
     semver "^5.5.0"
 
-"@oclif/config@1", "@oclif/config@^1.4.0", "@oclif/config@^1.4.10":
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.4.10.tgz#79d10455378bf97b0910685659c00a7cca6e2e77"
+"@oclif/config@1", "@oclif/config@^1.6.0":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.1.tgz#561c8950a01fa3255821f7a6810974b625133b1b"
   dependencies:
     debug "^3.1.0"
 
 "@oclif/dev-cli@1":
-  version "1.9.16"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.9.16.tgz#2cc2942d5e8b92041aed41a04c4436fa11aa9c9d"
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.12.1.tgz#e04ee9c9bf4c277a92b2bb40a9a07461bad56d83"
   dependencies:
-    "@oclif/command" "^1.4.10"
-    "@oclif/config" "^1.4.10"
+    "@oclif/command" "^1.4.13"
+    "@oclif/config" "^1.6.0"
     "@oclif/errors" "^1.0.4"
     "@oclif/plugin-help" "^1.2.3"
-    "@oclif/plugin-warn-if-update-available" "^1.3.0"
     cli-ux "^3.3.28"
     debug "^3.1.0"
     fs-extra "^5.0.0"
@@ -56,9 +55,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
 
-"@oclif/parser@^3.2.13":
-  version "3.2.13"
-  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.13.tgz#4baf2b4ea23165e57adaae1f223861d8d9a33a24"
+"@oclif/parser@^3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.3.2.tgz#81af56d4f97beae376abb59e461005489abd9e19"
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.3.2"
@@ -74,19 +73,6 @@
     string-width "^2.1.1"
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
-
-"@oclif/plugin-warn-if-update-available@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-warn-if-update-available/-/plugin-warn-if-update-available-1.3.0.tgz#f332eee1560cdeed1b4f4857cb54260fe1ca2582"
-  dependencies:
-    "@oclif/command" "^1.4.7"
-    "@oclif/config" "^1.4.0"
-    "@oclif/errors" "^1.0.4"
-    chalk "^2.3.2"
-    debug "^3.1.0"
-    fs-extra "^5.0.0"
-    http-call "^5.1.0"
-    semver "^5.5.0"
 
 "@oclif/screen@^1.0.2":
   version "1.0.2"
