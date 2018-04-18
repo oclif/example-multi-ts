@@ -5,28 +5,24 @@ jobs:
     docker:
       - image: node:latest
     working_directory: ~/cli
-    environment:
-      NYC: "yarn exec nyc -- --nycrc-path node_modules/@oclif/nyc-config/.nycrc"
     steps:
       - checkout
       - restore_cache: &restore_cache
           keys:
-            - v1-yarn-{{checksum ".circleci/config.yml"}}-{{ checksum "yarn.lock"}}
-            - v1-yarn-{{checksum ".circleci/config.yml"}}
+            - v1-npm-{{checksum ".circleci/config.yml"}}-{{ checksum "yarn.lock"}}
+            - v1-npm-{{checksum ".circleci/config.yml"}}
       - run:
           name: Install dependencies
-          command: |
-            .circleci/greenkeeper
-            yarn add -D nyc@11 @oclif/nyc-config@1
+          command: .circleci/greenkeeper
       - run: ./bin/run --version
       - run: ./bin/run --help
       - run:
           name: Testing
-          command: $NYC yarn test
+          command: yarn test
       - run:
           name: Submitting code coverage to codecov
           command: |
-            $NYC report --reporter text-lcov > coverage.lcov
+            ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
             curl -s https://codecov.io/bash | bash
   node-8:
     <<: *test
@@ -48,9 +44,6 @@ jobs:
           command: |
             export PATH=/usr/local/share/.config/yarn/global/node_modules/.bin:$PATH
             semantic-release -e @oclif/semantic-release
-      - run:
-          name: Add dev packages to cache
-          command: yarn add -D nyc@11 @oclif/nyc-config@1
       - save_cache:
           key: v1-yarn-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
           paths:

@@ -30,27 +30,10 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [example-multi-ts goodbye [FILE]](#example-multi-ts-goodbye-file)
-* [example-multi-ts hello [FILE]](#example-multi-ts-hello-file)
-* [example-multi-ts help [COMMAND]](#example-multi-ts-help-command)
+* [`example-multi-ts hello [FILE]`](#example-multi-ts-hello-file)
+* [`example-multi-ts help [COMMAND]`](#example-multi-ts-help-command)
 
-## example-multi-ts goodbye [FILE]
-
-describe the command here
-
-```
-USAGE
-  $ example-multi-ts goodbye [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-_See code: [src/commands/goodbye.ts](https://github.com/oclif/example-multi-ts/blob/v1.7.32/src/commands/goodbye.ts)_
-
-## example-multi-ts hello [FILE]
+## `example-multi-ts hello [FILE]`
 
 describe the command here
 
@@ -70,7 +53,7 @@ EXAMPLE
 
 _See code: [src/commands/hello.ts](https://github.com/oclif/example-multi-ts/blob/v1.7.32/src/commands/hello.ts)_
 
-## example-multi-ts help [COMMAND]
+## `example-multi-ts help [COMMAND]`
 
 display help for example-multi-ts
 
