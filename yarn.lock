@@ -19,8 +19,8 @@
     semver "^5.5.0"
 
 "@oclif/config@1", "@oclif/config@^1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.4.tgz#4bcb51fa40646794031437d7904f0fbb56e5c072"
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.5.tgz#fcf60764b3fd420c4483bfa8f7cf9e2eb118ba42"
   dependencies:
     debug "^3.1.0"
 
