@@ -1,3 +1,11 @@
+<a name="1.7.37"></a>
+## [1.7.37](https://github.com/oclif/example-multi-ts/compare/v1.7.36...v1.7.37) (2018-05-01)
+
+
+### Bug Fixes
+
+* oclif v1.7.36 ([4b21888](https://github.com/oclif/example-multi-ts/commit/4b21888))
+
 <a name="1.7.36"></a>
 ## [1.7.36](https://github.com/oclif/example-multi-ts/compare/v1.7.35...v1.7.36) (2018-04-21)
 
