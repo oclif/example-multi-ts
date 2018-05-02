@@ -17,7 +17,7 @@
     "@oclif/test": "1",
     "@types/chai": "4",
     "@types/mocha": "5",
-    "@types/node": "9",
+    "@types/node": "^10.0.3",
     "chai": "4",
     "globby": "8",
     "mocha": "5",
