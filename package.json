@@ -30,9 +30,9 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/.oclif.manifest.json",
     "/bin",
-    "/lib"
+    "/lib",
+    "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/oclif/example-multi-ts",
   "keywords": [
@@ -49,7 +49,7 @@
   },
   "repository": "oclif/example-multi-ts",
   "scripts": {
-    "postpack": "rm -f .oclif.manifest.json",
+    "postpack": "rm -f oclif.manifest.json",
     "posttest": "tsc -p test --noEmit",
     "prepack": "rm -rf lib && tsc && oclif-dev manifest && oclif-dev readme",
     "test": "nyc mocha --forbid-only \"test/**/*.test.ts\"",
