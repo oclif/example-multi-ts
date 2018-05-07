@@ -8,23 +8,23 @@
   },
   "bugs": "https://github.com/oclif/example-multi-ts/issues",
   "dependencies": {
-    "@oclif/command": "1",
-    "@oclif/config": "1",
-    "@oclif/plugin-help": "1"
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "1",
-    "@oclif/test": "1",
-    "@types/chai": "4",
-    "@types/mocha": "5",
-    "@types/node": "9",
-    "chai": "4",
-    "globby": "8",
-    "mocha": "5",
-    "nyc": "11",
-    "ts-node": "5",
-    "tslib": "1",
-    "typescript": "2.8"
+    "@oclif/dev-cli": "^1",
+    "@oclif/test": "^1",
+    "@types/chai": "^4",
+    "@types/mocha": "^5",
+    "@types/node": "^9",
+    "chai": "^4",
+    "globby": "^8",
+    "mocha": "^5",
+    "nyc": "^11",
+    "ts-node": "^5",
+    "tslib": "^1",
+    "typescript": "^2.8"
   },
   "engines": {
     "node": ">=8.0.0"
