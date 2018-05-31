@@ -13,7 +13,7 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
-"@oclif/command@^1", "@oclif/command@^1.4.29", "@oclif/command@^1.4.30":
+"@oclif/command@^1", "@oclif/command@^1.4.30":
   version "1.4.30"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.30.tgz#631eb423182517dc38711d6270aecb621bfa24a9"
   dependencies:
@@ -29,13 +29,13 @@
     debug "^3.1.0"
 
 "@oclif/dev-cli@^1":
-  version "1.13.24"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.13.24.tgz#3ed46f643b0edf7c87e4f1372b7f3c43e2bca2b1"
+  version "1.13.29"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.13.29.tgz#c3278810675a70c47ff7796b83c483e98b02fb95"
   dependencies:
     "@oclif/command" "^1.4.30"
     "@oclif/config" "^1.6.21"
     "@oclif/errors" "^1.1.2"
-    "@oclif/plugin-help" "^2.0.0"
+    "@oclif/plugin-help" "^2.0.1"
     cli-ux "^4.4.0"
     debug "^3.1.0"
     fs-extra "^6.0.1"
@@ -43,7 +43,7 @@
     normalize-package-data "^2.4.0"
     qqjs "^0.3.9"
     require-resolve "^0.0.2"
-    tslib "^1.9.1"
+    tslib "^1.9.2"
 
 "@oclif/errors@^1.1.1", "@oclif/errors@^1.1.2":
   version "1.1.2"
@@ -66,23 +66,11 @@
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
 
-"@oclif/plugin-help@^1":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.2.11.tgz#e6413a6009519230bc4c7e7fe45d8e139939e657"
+"@oclif/plugin-help@^2", "@oclif/plugin-help@^2.0.1":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.0.4.tgz#32cf1dc7696f626a6065109a17b0f061adb14243"
   dependencies:
-    "@oclif/command" "^1.4.29"
-    chalk "^2.4.1"
-    indent-string "^3.2.0"
-    lodash.template "^4.4.0"
-    string-width "^2.1.1"
-    widest-line "^2.0.0"
-    wrap-ansi "^3.0.1"
-
-"@oclif/plugin-help@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.0.0.tgz#126f00af0b3274a5479ab70cb7619887049473c1"
-  dependencies:
-    "@oclif/command" "^1.4.29"
+    "@oclif/command" "^1.4.30"
     chalk "^2.4.1"
     indent-string "^3.2.0"
     lodash.template "^4.4.0"
@@ -1188,8 +1176,8 @@ istanbul-lib-source-maps@^1.2.3:
     source-map "^0.5.3"
 
 istanbul-reports@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-1.4.0.tgz#3d7b44b912ecbe7652a603662b962120739646a1"
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-1.4.1.tgz#4f2e8e928aa7a05d1da6c427d4098b2655ec7334"
   dependencies:
     handlebars "^4.0.3"
 
@@ -2137,7 +2125,7 @@ ts-node@^6:
     source-map-support "^0.5.3"
     yn "^2.0.0"
 
-tslib@^1, tslib@^1.9.1:
+tslib@^1, tslib@^1.9.2:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.2.tgz#8be0cc9a1f6dc7727c38deb16c2ebd1a2892988e"
 
@@ -2151,9 +2139,9 @@ type-detect@^4.0.0:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
 
-typescript@^2.8:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.3.tgz#5d817f9b6f31bb871835f4edf0089f21abe6c170"
+typescript@^2.9:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.1.tgz#fdb19d2c67a15d11995fd15640e373e09ab09961"
 
 uglify-js@^2.6:
   version "2.8.29"
