@@ -14,8 +14,8 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
 "@oclif/command@^1", "@oclif/command@^1.4.30":
-  version "1.4.31"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.31.tgz#14aece1d9d9e53cc5a5dc03d17cf315cd55818f9"
+  version "1.4.32"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.32.tgz#1cb2eb9637340a1ac69da35e407316688f736647"
   dependencies:
     "@oclif/errors" "^1.1.2"
     "@oclif/parser" "^3.4.1"
@@ -23,8 +23,8 @@
     semver "^5.5.0"
 
 "@oclif/config@^1", "@oclif/config@^1.6.21":
-  version "1.6.25"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.25.tgz#e3cde362f7f0cb86e283c350cd7b6c08c04260c7"
+  version "1.6.27"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.27.tgz#d3de1cff71301784c8e4ee3903d3f7db21a18c3f"
   dependencies:
     debug "^3.1.0"
     tslib "^1.9.2"
@@ -84,10 +84,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.2.tgz#c9d7c84b0ea60ecec8dd7a9b22c012ba9967aed8"
 
 "@oclif/test@^1":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.6.tgz#45dbab5610caed9f178e33ff6b416f6ce2dc245c"
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.9.tgz#302955b80159be78bc7b698aec4b0d2164d06b76"
   dependencies:
-    fancy-test "^1.0.6"
+    fancy-test "^1.1.4"
 
 "@types/chai@^4", "@types/chai@^4.1.3":
   version "4.1.3"
@@ -736,9 +736,9 @@ extract-stack@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/extract-stack/-/extract-stack-1.0.0.tgz#b97acaf9441eea2332529624b732fc5a1c8165fa"
 
-fancy-test@^1.0.6:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.1.1.tgz#22517244313345eb603730587feb1487d460b379"
+fancy-test@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.1.4.tgz#1bcc7b7a526218a85ed1ff0d2e95afc4b69fab23"
   dependencies:
     "@types/chai" "^4.1.3"
     "@types/lodash" "^4.14.109"
@@ -1474,8 +1474,8 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
 nyc@^11:
-  version "11.8.0"
-  resolved "https://registry.yarnpkg.com/nyc/-/nyc-11.8.0.tgz#1e8453b0644f8fea4d829b1a6636663157cd3b00"
+  version "11.9.0"
+  resolved "https://registry.yarnpkg.com/nyc/-/nyc-11.9.0.tgz#4106e89e8fbe73623a1fc8b6ecb7abaa271ae1e4"
   dependencies:
     archy "^1.0.0"
     arrify "^1.0.1"
