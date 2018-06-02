@@ -1,3 +1,11 @@
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/oclif/example-multi-ts/compare/v1.7.55...v1.8.0) (2018-06-02)
+
+
+### Features
+
+* oclif v1.8.0 ([7e74531](https://github.com/oclif/example-multi-ts/commit/7e74531))
+
 <a name="1.7.55"></a>
 ## [1.7.55](https://github.com/oclif/example-multi-ts/compare/v1.7.54...v1.7.55) (2018-06-01)
 
