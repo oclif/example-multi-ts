@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.8.0 linux-x64 node-v10.3.0
+@oclif/example-multi-ts/1.8.0 linux-x64 node-v10.4.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
@@ -31,25 +31,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-ts goodbye [FILE]`](#example-multi-ts-goodbye-file)
 * [`example-multi-ts hello [FILE]`](#example-multi-ts-hello-file)
 * [`example-multi-ts help [COMMAND]`](#example-multi-ts-help-command)
-
-## `example-multi-ts goodbye [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ example-multi-ts goodbye [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-_See code: [src/commands/goodbye.ts](https://github.com/oclif/example-multi-ts/blob/v1.8.0/src/commands/goodbye.ts)_
 
 ## `example-multi-ts hello [FILE]`
 
@@ -86,5 +69,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.4/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.5/src/commands/help.ts)_
 <!-- commandsstop -->
