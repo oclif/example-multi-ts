@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.8.2 linux-x64 node-v10.4.0
+@oclif/example-multi-ts/1.8.2 linux-x64 node-v10.4.1
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
@@ -31,25 +31,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-ts goodbye [FILE]`](#example-multi-ts-goodbye-file)
 * [`example-multi-ts hello [FILE]`](#example-multi-ts-hello-file)
 * [`example-multi-ts help [COMMAND]`](#example-multi-ts-help-command)
-
-## `example-multi-ts goodbye [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ example-multi-ts goodbye [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-_See code: [src/commands/goodbye.ts](https://github.com/oclif/example-multi-ts/blob/v1.8.2/src/commands/goodbye.ts)_
 
 ## `example-multi-ts hello [FILE]`
 
