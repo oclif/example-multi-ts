@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/oclif/example-multi-ts/compare/v1.8.3...v1.8.4) (2018-06-14)
+
+
+### Bug Fixes
+
+* oclif v1.8.4 ([c387635](https://github.com/oclif/example-multi-ts/commit/c387635))
+
 ## [1.8.3](https://github.com/oclif/example-multi-ts/compare/v1.8.2...v1.8.3) (2018-06-14)
 
 
