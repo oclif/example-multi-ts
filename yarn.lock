@@ -103,15 +103,15 @@
     semver "^5.5.0"
 
 "@oclif/config@^1", "@oclif/config@^1.6.27":
-  version "1.6.28"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.28.tgz#bfda0718ba5dfbdeb364350990ed79540f9c3d0b"
+  version "1.6.31"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.31.tgz#10b97f16b8318b5b2eba0c1d6737e9c151ceb083"
   dependencies:
     debug "^3.1.0"
     tslib "^1.9.2"
 
 "@oclif/dev-cli@^1":
-  version "1.13.31"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.13.31.tgz#ddcca19e1346de3656b63210305c87acdc98fd44"
+  version "1.13.32"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.13.32.tgz#e41a90691db8be8ce4b15909ca8c8ffc2fd9d72a"
   dependencies:
     "@oclif/command" "^1.4.33"
     "@oclif/config" "^1.6.27"
@@ -141,8 +141,8 @@
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
 
 "@oclif/parser@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.5.1.tgz#2f60ac9773565786b6e1afff967b36a6399defcc"
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.5.2.tgz#541bd783463ea0b3717836a12de36cf2a73297de"
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
@@ -446,8 +446,8 @@ clean-stack@^1.3.0:
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-1.3.0.tgz#9e821501ae979986c46b1d66d2d432db2fd4ae31"
 
 cli-ux@^4.6.2:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.6.3.tgz#cc47aff73deeb7dd9b0b86f136755768403060be"
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.7.1.tgz#b954aa806620cc818cbdd0a75e587c54bf0a0bbe"
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     "@oclif/screen" "^1.0.2"

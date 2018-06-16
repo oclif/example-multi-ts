@@ -50,7 +50,7 @@
   },
   "repository": "oclif/example-multi-ts",
   "scripts": {
-    "postpack": "rm -f oclif.manifest.json",
+    "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
     "posttest": "tsc -p test --noEmit",
     "prepack": "rm -rf lib && tsc && oclif-dev manifest && oclif-dev readme && npm shrinkwrap",
     "prepare": "rm -rf lib && tsc",
