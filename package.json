@@ -23,8 +23,8 @@
     "globby": "^8",
     "mocha": "^5",
     "nyc": "^12",
-    "ts-node": "^6",
-    "typescript": "^2.9"
+    "ts-node": "^7",
+    "typescript": "^3.0"
   },
   "engines": {
     "node": ">=8.0.0"
