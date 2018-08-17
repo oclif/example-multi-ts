@@ -103,11 +103,11 @@
     semver "^5.5.0"
 
 "@oclif/config@^1", "@oclif/config@^1.6.33":
-  version "1.6.33"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.33.tgz#61906143b30751d96dd29991c20c214bf4d9e4ff"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.7.0.tgz#deb465093d10a1ee802cca7580cd2d33f78d9d60"
   dependencies:
     debug "^3.1.0"
-    tslib "^1.9.2"
+    tslib "^1.9.3"
 
 "@oclif/dev-cli@^1":
   version "1.16.0"
@@ -2105,7 +2105,7 @@ ts-node@^6:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-tslib@^1, tslib@^1.9.2, tslib@^1.9.3:
+tslib@^1, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
