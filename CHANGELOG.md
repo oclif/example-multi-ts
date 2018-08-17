@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/oclif/example-multi-ts/compare/v1.9.2...v1.10.0) (2018-08-17)
+
+
+### Features
+
+* oclif v1.11.0 ([f204496](https://github.com/oclif/example-multi-ts/commit/f204496))
+
 ## [1.9.2](https://github.com/oclif/example-multi-ts/compare/v1.9.1...v1.9.2) (2018-08-17)
 
 
