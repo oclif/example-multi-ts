@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/oclif/example-multi-ts/compare/v1.10.3...v1.10.4) (2018-08-29)
+
+
+### Bug Fixes
+
+* oclif v1.11.5 ([4e3b8c8](https://github.com/oclif/example-multi-ts/commit/4e3b8c8)), closes [#161](https://github.com/oclif/example-multi-ts/issues/161)
+
 ## [1.10.3](https://github.com/oclif/example-multi-ts/compare/v1.10.2...v1.10.3) (2018-08-22)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@oclif/example-multi-ts",
   "description": "example multi-command CLI built with typescript",
-  "version": "1.10.3",
+  "version": "1.10.4",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "example-multi-ts": "./bin/run"
