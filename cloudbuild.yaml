@@ -4,3 +4,4 @@ steps:
 - name: node:10.10.0
   entrypoint: yarn
   args: ['test']
+
