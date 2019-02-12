@@ -202,11 +202,11 @@
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
 "@oclif/test@^1":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.2.2.tgz#41f531145bf784b28f076d5b9ec9ca6c7bda0284"
-  integrity sha512-ig8bwNRQVOqTJL03iSKzkEG0OHp4ai5uDragU1+8RHh1DDs5unF46lyd/zLkIicDZXrmEhlIuAjkBdK1apH6Bw==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.2.4.tgz#81203074927c00b0804a171e67a45c5968813c01"
+  integrity sha512-c0khMdYBGV7t9L7SNbh84t9PmTqfaTp4Jqf3JbWu80fd+SAM03m9o+dvrgx+qv4YbSTum4GpXBZtXHq4AXsD3Q==
   dependencies:
-    fancy-test "^1.4.1"
+    fancy-test "^1.4.3"
 
 "@oclif/tslint@^3":
   version "3.1.1"
@@ -238,10 +238,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^10":
-  version "10.12.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.24.tgz#b13564af612a22a20b5d95ca40f1bffb3af315cf"
-  integrity sha512-GWWbvt+z9G5otRBW8rssOFgRY87J9N/qbhqfjMZ+gUuL6zoL+Hm6gP/8qQBG4jjimqdaNLCehcVapZ/Fs2WjCQ==
+"@types/node@*":
+  version "11.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.2.tgz#806126bdb6b1d7adcbff39170e5c95b19d3ec0d4"
+  integrity sha512-MMwOkF+sy8LlSN2jLTGtwTcfqVN3H1WaCRO8gVaySVMJtOiZR+9V0y/3UprGi0rx6X7OrWGKGUtSviGVT44W3A==
+
+"@types/node@^10":
+  version "10.12.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.25.tgz#0d01a7dd6127de60d861ece4a650963042abb538"
+  integrity sha512-IcvnGLGSQFDvC07Bz2I8SX+QKErDZbUdiQq7S2u3XyzTyJfUmT0sWJMbeQkMzpTAkO7/N7sZpW/arUM2jfKsbQ==
 
 "@types/sinon@*":
   version "7.0.5"
@@ -914,7 +919,7 @@ extract-stack@^1.0.0:
   resolved "https://registry.yarnpkg.com/extract-stack/-/extract-stack-1.0.0.tgz#b97acaf9441eea2332529624b732fc5a1c8165fa"
   integrity sha1-uXrK+UQe6iMyUpYktzL8WhyBZfo=
 
-fancy-test@^1.4.1:
+fancy-test@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-1.4.3.tgz#c08123504cc48a6dce15ac08a916d6f3e91209af"
   integrity sha512-Lt3mcQ0jn9Kg9JDmobVb4ZANiyT4e2VC5qbQvuzJVNYXyKjSgFWKn7bZN4BKei33v5jYWx28KlbDgsxuqnBRvg==
@@ -1543,9 +1548,9 @@ load-json-file@^4.0.0:
     strip-bom "^3.0.0"
 
 load-json-file@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-5.1.0.tgz#c062f048e0ee556bf7f535bb16f6e45bb9d06b18"
-  integrity sha512-+ggO8OpTviHQ/zoyFxLJglsu1CylXUt1vpGa+mIUeesCkTC0G+JO6rdTS1/WcGBZDC7Nejo1aZ9MxbqflpmO6Q==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-5.2.0.tgz#1553627a18bf7b08cd7ec232d63981239085a578"
+  integrity sha512-HvjIlM2Y/RDHk1X6i4sGgaMTrAsnNrgQCJtuf5PEhbOV6MCJuMVZLMdlJRE0JGLMkF7b6O5zs9LcDxKIUt9CbQ==
   dependencies:
     graceful-fs "^4.1.2"
     parse-json "^4.0.0"
