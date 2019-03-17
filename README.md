@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-multi-ts
 $ example-multi-ts COMMAND
 running command...
 $ example-multi-ts (-v|--version|version)
-@oclif/example-multi-ts/1.10.7 linux-x64 node-v11.9.0
+@oclif/example-multi-ts/1.10.7 linux-x64 node-v11.11.0
 $ example-multi-ts --help [COMMAND]
 USAGE
   $ example-multi-ts COMMAND
