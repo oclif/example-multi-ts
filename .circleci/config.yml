@@ -24,10 +24,10 @@ jobs:
           command: |
             ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
             curl -s https://codecov.io/bash | bash
-  node-8:
+  node-12:
     <<: *test
     docker:
-      - image: node:8
+      - image: node:12
   node-10:
     <<: *test
     docker:
@@ -51,7 +51,7 @@ workflows:
   "@oclif/example-multi-ts":
     jobs:
       - node-latest
-      - node-8
+      - node-12
       - node-10
       - cache:
           filters:
