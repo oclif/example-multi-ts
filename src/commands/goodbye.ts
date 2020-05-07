@@ -16,7 +16,7 @@ export default class Goodbye extends Command {
   async run() {
     const {args, flags} = this.parse(Goodbye)
 
-    const name = flags.name || 'world'
+    const name = flags.name ?? 'world'
     this.log(`hello ${name} from /root/cli/tmp/examples/example-multi-ts/src/commands/goodbye.ts`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
